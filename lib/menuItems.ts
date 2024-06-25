@@ -1529,8 +1529,7 @@ export const Menu: Category[] = [
                     size2: "20 fl oz",
                   },
                 ],
-                link: "Iced-White-Chocolate-Mocha",
-              },
+                link: "Iced-White-Chocolate-Mocha",},
               {
                 name: "Iced Caffè Mocha",
                 image: "/Iced Caffè Mocha.avif",
