@@ -86,7 +86,7 @@ export const Menu: Category[] = [
               {
                 name: "Veranda Blend® Clover Vertica™",
                 image: "/to.avif",
-                link: "Veranda-Blend-Clover-Vertica",
+                link: "veranda-blend-clover-vertica",
                 sizes: [
                   {
                     size: "Short",
@@ -1529,7 +1529,8 @@ export const Menu: Category[] = [
                     size2: "20 fl oz",
                   },
                 ],
-                link: "Iced-White-Chocolate-Mocha",},
+                link: "Iced-White-Chocolate-Mocha",
+              },
               {
                 name: "Iced Caffè Mocha",
                 image: "/Iced Caffè Mocha.avif",
