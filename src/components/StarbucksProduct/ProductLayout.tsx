@@ -21,6 +21,16 @@ const variants = {
   visible: { opacity: 1, y: 0 },
 };
 
+function convertNameToLink(name) {
+  return name
+    .normalize('NFD')                      // Normalize to separate base characters and diacritics
+    .replace(/[\u0300-\u036f]/g, '')       // Remove diacritics
+    .toLowerCase()                         // Convert to lowercase
+    .replace(/[®™,.\s]+/g, '-')            // Replace ®, ™, comma, dot, and spaces with hyphen
+    .replace(/-+/g, '-')                   // Replace multiple hyphens with a single hyphen
+    .replace(/^-+|-+$/g, '');              // Remove leading and trailing hyphens
+}
+
 const ProductLayout = ({ subItem, delay }: any) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -36,6 +46,9 @@ const ProductLayout = ({ subItem, delay }: any) => {
     : null;
 
   const [selectedSize, setSelectedSize] = useState(initialSize);
+  const link = convertNameToLink(subItem.name);
+
+  console.log(link)
 
   return (
     <motion.div
@@ -54,7 +67,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
         className="flex flex-row mb-6 items-center gap-5"
       >
         <Link
-          href={`/articles/${subItem.link}`}
+          href={`/articles/${link}`}
           aria-label={`Starbucks ${subItem.name}`}
         >
           <Image
@@ -69,7 +82,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
         </Link>
         <div>
           <Link
-            href={`/articles/${subItem.link}`}
+            href={`/articles/${link}`}
             aria-label={`Starbucks ${subItem.name}`}
           >
             {" "}
@@ -77,7 +90,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
           </Link>
           <div className="w-44 flex gap-6 justify-between items-center">
             <Link
-              href={`/articles/${subItem.link}`}
+              href={`/articles/${link}`}
               aria-label={`Starbucks ${subItem.name}`}
             >
               <div className="h-full gap-1 font-bold flex justify-between flex-col">
@@ -131,7 +144,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
               ) : null}
               {hasSizes && selectedSize ? (
                 <Link
-                  href={`/articles/${subItem.link}`}
+                  href={`/articles/${link}`}
                   aria-label={`Starbucks ${subItem.name}`}
                 >
                   <span>{selectedSize.size2}</span>
@@ -140,7 +153,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
                 </Link>
               ) : (
                 <Link
-                  href={`/articles/${subItem.link}`}
+                  href={`/articles/${link}`}
                   aria-label={`Starbucks ${subItem.name}`}
                 >
                   {subItem.calories !== undefined && <p>{subItem.calories}</p>}
