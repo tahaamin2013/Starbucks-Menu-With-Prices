@@ -21,7 +21,7 @@ const variants = {
   visible: { opacity: 1, y: 0 },
 };
 
-function convertNameToLink(name) {
+function convertNameToLink(name:any) {
   return name
     .normalize('NFD')                      // Normalize to separate base characters and diacritics
     .replace(/[\u0300-\u036f]/g, '')       // Remove diacritics
