@@ -2,7 +2,7 @@ import CategoryPageComponent from "@/src/components/Category/CategoryPageCompone
 import React from "react";
 
 const Mugs = () => {
-  return <CategoryPageComponent name="Mugs" link="/mugs" />;
+  return <CategoryPageComponent name="Other" link="/other" />;
 };
 
 export default Mugs;
