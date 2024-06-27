@@ -1309,7 +1309,7 @@ export const Menu: Category[] = [
           },
 
           {
-            category: "Iced Flat Whites",
+            category: "Iced Flat White",
             products: [
               {
                 name: "Iced Flat White",
