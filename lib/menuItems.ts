@@ -3137,7 +3137,7 @@ export const Menu: Category[] = [
             category: "Chai Teas",
             products: [
               {
-                name: "Chai Tea Latte",
+                name: "Chai Latte",
                 image: "/Chai Tea Latte.avif",
                 sizes: [
                   {
@@ -3235,37 +3235,7 @@ export const Menu: Category[] = [
                 ],
                 link: "Black-Teas",
               },
-              {
-                name: "Teavana London Fog Tea Latte",
-                image: "/Teavana® London Fog Tea Latte.avif",
-                sizes: [
-                  {
-                    size: "Short",
-                    price: "$4.85",
-                    calories: 90,
-                    size2: "8 fl oz",
-                  },
-                  {
-                    size: "Tall",
-                    price: "$4.95",
-                    calories: 140,
-                    size2: "12 fl oz",
-                  },
-                  {
-                    size: "Grande",
-                    price: "$5.25",
-                    calories: 180,
-                    size2: "16 fl oz",
-                  },
-                  {
-                    size: "Venti",
-                    price: "$5.65",
-                    calories: 230,
-                    size2: "20 fl oz",
-                  },
-                ],
-                link: "Teavana-London-Fog-Tea-Latte",
-              },
+
               {
                 name: "Royal English Breakfast Tea",
                 image: "/Royal English Breakfast Tea.avif",
@@ -3298,7 +3268,7 @@ export const Menu: Category[] = [
                 link: "Royal-English-Breakfast-Tea",
               },
               {
-                name: "Royal English breakfast tea latte",
+                name: "Royal English breakfast latte",
                 image: "/Royal English breakfast tea latte.avif",
                 sizes: [
                   {
@@ -3335,7 +3305,7 @@ export const Menu: Category[] = [
             category: "Green Teas",
             products: [
               {
-                name: "Emperor's Clouds & Mist",
+                name: "Emperors Clouds and Mist",
                 image: "/Emperor’s Clouds & Mist®.avif",
                 sizes: [
                   {
@@ -3366,7 +3336,7 @@ export const Menu: Category[] = [
                 link: "",
               },
               {
-                name: "Matcha Tea Latte",
+                name: "Matcha Latte",
                 image: "/Matcha Tea Latte.avif",
                 sizes: [
                   {
@@ -4883,4 +4853,4 @@ export const Menu: Category[] = [
       },
     ],
   },
-]
+];
