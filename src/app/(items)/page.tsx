@@ -160,7 +160,7 @@ const MenuPage = () => {
                     <h3 className="text-xl border-b pb-1 font-bold mt-4 mb-2">
                       {subItem.category}
                     </h3>
-                    <div className="grid grid-cols-2">
+                    <div className="grid  grid-cols-1 md:grid-cols-2">
                       {subItem.products.map((product: any, prodIdx: any) => (
                         <ProductLayout
                           key={prodIdx}

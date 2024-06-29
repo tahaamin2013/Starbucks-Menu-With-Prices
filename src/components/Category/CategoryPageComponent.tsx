@@ -206,7 +206,7 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                       {subItem.category}
                     </h3>
                   )}
-                  <div className="w-full block sm:grid grid-cols-2 gap-7">
+                  <div className="w-full block sm:grid grid-cols-1 md:grid-cols-2 gap-7">
                     {subItem.products.map((product, prodIndex) => (
                       <ProductLayout key={prodIndex} subItem={product} />
                     ))}
