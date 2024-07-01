@@ -21,14 +21,14 @@ const variants = {
   visible: { opacity: 1, y: 0 },
 };
 
-function convertNameToLink(name:any) {
+function convertNameToLink(name: any) {
   return name
-    .normalize('NFD')                      // Normalize to separate base characters and diacritics
-    .replace(/[\u0300-\u036f]/g, '')       // Remove diacritics
-    .toLowerCase()                         // Convert to lowercase
-    .replace(/[®™,.\s]+/g, '-')            // Replace ®, ™, comma, dot, and spaces with hyphen
-    .replace(/-+/g, '-')                   // Replace multiple hyphens with a single hyphen
-    .replace(/^-+|-+$/g, '');              // Remove leading and trailing hyphens
+    .normalize("NFD") // Normalize to separate base characters and diacritics
+    .replace(/[\u0300-\u036f]/g, "") // Remove diacritics
+    .toLowerCase() // Convert to lowercase
+    .replace(/[®™,.\s]+/g, "-") // Replace ®, ™, comma, dot, and spaces with hyphen
+    .replace(/-+/g, "-") // Replace multiple hyphens with a single hyphen
+    .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
 }
 
 const ProductLayout = ({ subItem, delay }: any) => {
@@ -48,7 +48,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
   const [selectedSize, setSelectedSize] = useState(initialSize);
   const link = convertNameToLink(subItem.name);
 
-  console.log(link)
+  console.log(link);
 
   return (
     <motion.div
