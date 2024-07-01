@@ -60,7 +60,7 @@ const ProductContent = ({ subItem, delay }: any) => {
           alt={`Starbucks menu with prices featuring a ${subItem.name}`}
           width={220}
           height={2100}
-          className="rounded-full h-fit w-[220px] object-cover myshadow-black"
+          className="rounded-full h-fit w-[220px] object-cover object-top myshadow-black"
         />
         <div>
           <div className="w-44 flex gap-6 justify-between items-center">

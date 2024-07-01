@@ -26,6 +26,7 @@ function convertNameToLink(name: any) {
     .normalize("NFD") // Normalize to separate base characters and diacritics
     .replace(/[\u0300-\u036f]/g, "") // Remove diacritics
     .toLowerCase() // Convert to lowercase
+    .replace(/&/g, "and") // Replace & with and
     .replace(/[®™,.\s]+/g, "-") // Replace ®, ™, comma, dot, and spaces with hyphen
     .replace(/-+/g, "-") // Replace multiple hyphens with a single hyphen
     .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
