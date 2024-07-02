@@ -5,7 +5,7 @@ const FrappuccinoBlendedBeverages = () => {
   return (
     <CategoryPageComponent
       name="Frappuccino® Blended Beverages"
-      link="/frappuccino-Blended-Beverages"
+      link="/frappuccino-blended-beverages"
     />
   );
 };
