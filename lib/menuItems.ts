@@ -2574,7 +2574,6 @@ export const Menu: Category[] = [
           },
         ],
       },
-
       {
         name: "Iced Tea and Lemonade",
         image: "/Iced Tea and Lemonade.avif",
