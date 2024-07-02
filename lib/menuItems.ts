@@ -2101,7 +2101,7 @@ export const Menu: Category[] = [
 
       {
         name: "Frappuccino® Blended Beverages",
-        image: "/Frappuccino® Blended Beverages.avif",
+        image: "/Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage.avif",
         link: "frappuccino-blended-beverages",
         subItems: [
           {

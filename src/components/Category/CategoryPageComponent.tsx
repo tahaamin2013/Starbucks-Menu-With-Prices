@@ -25,26 +25,51 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    setFilteredMenu(Menu);
+    const updatedMenu = Menu.map((category) => ({
+      ...category,
+      totalItems: calculateTotalItems(category),
+    }));
+    setFilteredMenu(updatedMenu);
     setLoading(false);
   }, []);
+
+  const calculateTotalItems = (category: any) => {
+    let totalItems = category.items.length;
+
+    category.items.forEach((item: any) => {
+      if (item.subItems) {
+        item.subItems.forEach((subItem: any) => {
+          totalItems += subItem.products.length;
+        });
+      }
+    });
+
+    return totalItems;
+  };
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value.toLowerCase();
     setSearchQuery(query);
+
     if (query === "") {
-      setFilteredMenu(Menu);
+      const updatedMenu = Menu.map((category) => ({
+        ...category,
+        totalItems: calculateTotalItems(category),
+      }));
+      setFilteredMenu(updatedMenu);
     } else {
       const filteredItems = Menu.map((category) => {
         if (!category || !category.category) {
           return null;
         }
+
         const filteredCategoryItems = category.items.filter((item) => {
           if (!item || !item.name) {
             return false;
           }
           return item.name.toLowerCase().includes(query);
         });
+
         const filteredSubItems = category.items.reduce(
           (acc: any, curr: any) => {
             if (curr.subItems) {
@@ -80,17 +105,29 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
             ...category,
             items: filteredCategoryItems,
             subItems: filteredSubItems,
+            totalItems:
+              filteredCategoryItems.length +
+              filteredSubItems.reduce(
+                (acc: any, subItem: any) => acc + subItem.products.length,
+                0
+              ),
           };
         }
+
         return null;
       }).filter((category) => category !== null);
+
       setFilteredMenu(filteredItems);
     }
   };
 
   const clearSearch = () => {
     setSearchQuery("");
-    setFilteredMenu(Menu);
+    const updatedMenu = Menu.map((category) => ({
+      ...category,
+      totalItems: calculateTotalItems(category),
+    }));
+    setFilteredMenu(updatedMenu);
   };
 
   const hotCoffeesCategory = Menu.find((category) =>
@@ -203,7 +240,7 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                 <div key={index} className="flex flex-col">
                   {subItem.category === name ? null : (
                     <h3 className="font-semibold text-2xl border-b pb-1 mb-5">
-                      {subItem.category}
+                      {subItem.category} ({subItem.products.length})
                     </h3>
                   )}
                   <div className="w-full block sm:grid grid-cols-1 md:grid-cols-2 gap-7">
@@ -224,7 +261,7 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                 filteredMenu.map((category: any) => (
                   <div key={category.category}>
                     <h2 className="text-2xl font-bold mt-6 mb-3">
-                      {category.category}
+                      {category.category} ({category.totalItems})
                     </h2>
                     <div className="grid grid-cols-1 border-t md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
                       {category.items &&
@@ -241,7 +278,7 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                         category.subItems.map((subItem: any, subIdx: any) => (
                           <div key={subIdx} className="grid-cols-1">
                             <h3 className="text-xl font-bold mt-4 mb-2">
-                              {subItem.category}
+                              {subItem.category} ({subItem.products.length})
                             </h3>
                             {subItem.products.map(
                               (product: any, prodIdx: any) => (
