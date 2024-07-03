@@ -16,7 +16,6 @@ const CategoryLayout = ({ item, delay, key }: any) => {
     threshold: 0.1,
   });
 
-
   return (
     <Link
       href={item.link}
@@ -49,9 +48,8 @@ const CategoryLayout = ({ item, delay, key }: any) => {
             className="rounded-full"
           />
           <div>
-            <h1 className="text-xl w-full lg:w-[310px]">{item.name}</h1>
-            <p className="text-gray-600">{item.price}</p>
-          </div>
+            <h1 className="text-xl w-full">{item.name}</h1>
+            </div>
         </motion.div>
       </motion.div>
     </Link>
