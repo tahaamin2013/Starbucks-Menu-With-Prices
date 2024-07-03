@@ -148,7 +148,7 @@ const MenuPage = () => {
       ) : (
         <div className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
           <h4 className="font-bold text-2xl mb-2">Menu ({totalCount})</h4>
-          <div className="mb-5 relative">
+            <div className="mb-5 relative">
             <Input
               type="text"
               value={searchQuery}
