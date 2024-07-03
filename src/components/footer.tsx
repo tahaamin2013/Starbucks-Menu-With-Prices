@@ -16,7 +16,7 @@ const Footer = () => {
               <Link
                 aria-label="Starbucks Home"
                 href="/"
-                className="flex justify-center items-center w-full md:w-fit text-2xl gap-4 z-40 font-bold"
+                className="flex justify-center items-center w-full lg:w-fit text-2xl gap-4 z-40 font-bold"
               >
                 <Image
                   loading="lazy"
@@ -256,7 +256,7 @@ const Footer = () => {
 
           <div className="py-7 border-t border-gray-200">
             <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-              <span className="text-sm text-gray-500 ">
+              <span className="text-sm text-center md:text-left text-gray-500 ">
                 ©Starbucks Menu With Prices 2024, All rights reserved.
               </span>
               <ul className="flex items-center text-center gap-9 mt-4 lg:mt-0">
