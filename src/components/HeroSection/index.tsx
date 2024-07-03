@@ -1,5 +1,8 @@
+'use client'
+
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import {
   Carousel,
   CarouselContent,
@@ -7,35 +10,65 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../ui/carousel";
+import { Menu } from "@/lib/menuItems";
 
 const HeroSection = () => {
+  const [selectedProduct, setSelectedProduct] = useState(Menu[0].items[0].subItems[0].products[0]);
+
+  const handleProductClick = (product: any) => {
+    setSelectedProduct(product);
+  };
+
   return (
-    <div className="flex flex-col md:flex-row py-[40px] md:pl-[90px] justify-between items-center">
+    <div className="flex pb-[100px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] justify-between items-center">
       <div className="w-fit md:w-[530px]">
-        <h1 className="font-bold text-gray-900 text-4xl">
-          Starbucks is a resturant and loram lorem ok
-        </h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-          sequi, nemo illum quae nam aspernatur non repellendus fugiat
-          praesentium corrupti?
-        </p>
-        <button className="px-5 py-3 bg-primary text-white font-bold rounded-full mt-4">
+      <motion.h1 
+          className="font-bold text-gray-900 mb-3 text-4xl"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          {selectedProduct.name}
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+        
+        {selectedProduct.description}
+        </motion.p>
+        <motion.button 
+          className="px-5 py-3 bg-primary text-white font-bold rounded-full mt-4"
+          whileHover={{ scale: 1.1 }}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+        >
           View Details
-        </button>
-        <button className="px-5 py-2.5 ml-4 bg-white border-primary border-2 text-black font-bold rounded-full mt-4">
+        </motion.button>
+        <motion.button 
+          className="px-5 py-2.5 ml-4 bg-white border-primary border-2 text-black font-bold rounded-full mt-4"
+          whileHover={{ scale: 1.1 }}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+        >
           View Full Menu
-        </button>
+        </motion.button>
       </div>
-      <div className="ml-0 md:mt-0 mt-5 md:ml-6">
+      <motion.div
+        className="ml-0 md:mt-0 mt-5 md:ml-6"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+      >
         <Image
           className="rounded-full shadow-glow shadow-primary"
-          src="/Bacon, Gouda & Egg Sandwich.avif"
-          alt=""
-          width={270}
-          height={270}
+          src={selectedProduct.image}
+          alt={`${selectedProduct.name} Image`}
+          width={415}
+          height={415}
         />
-      </div>
+      </motion.div>
 
       <Carousel
         opts={{
@@ -44,82 +77,41 @@ const HeroSection = () => {
         orientation="vertical"
         className="w-full ml-6 mt-5 max-w-sm"
       >
-        <CarouselContent className="-mt-1 h-[300px]">
-          <CarouselItem className="pt-1  md:basis-1/3">
-            <div className="bg-white text-lg shadow-lg flex gap-3  border rounded-r items-center rounded-full px-4 ml-[30px] py-2">
-              <Image
-                className="rounded-full "
-                src="/Bacon, Gouda & Egg Sandwich.avif"
-                alt=""
-                width={70}
-                height={70}
-              />
-              Bacon, Gouda & Egg Sandwich
-            </div>
-          </CarouselItem>
-          <CarouselItem className="pt-1  md:basis-1/3">
-            <div className="bg-white text-lg shadow-lg flex gap-3  border rounded-r items-center rounded-full ml-[90px] px-4 py-2">
-              <Image
-                className="rounded-full "
-                src="/Bacon, Gouda & Egg Sandwich.avif"
-                alt=""
-                width={70}
-                height={70}
-              />
-              Bacon, Gouda & Egg Sandwich
-            </div>
-          </CarouselItem>
-          <CarouselItem className="pt-1  md:basis-1/3">
-            <div className="bg-white text-lg shadow-lg flex gap-3  border rounded-r items-center rounded-full px-4 py-2">
-              <Image
-                className="rounded-full "
-                src="/Bacon, Gouda & Egg Sandwich.avif"
-                alt=""
-                width={70}
-                height={70}
-              />
-              Bacon, Gouda & Egg Sandwich
-            </div>
-          </CarouselItem>
-          <CarouselItem className="pt-1  md:basis-1/3">
-            <div className="bg-white text-lg shadow-lg flex gap-3  border rounded-r items-center rounded-full ml-[90px] px-4 py-2">
-              <Image
-                className="rounded-full "
-                src="/Bacon, Gouda & Egg Sandwich.avif"
-                alt=""
-                width={70}
-                height={70}
-              />
-              Bacon, Gouda & Egg Sandwich
-            </div>
-          </CarouselItem>
-          <CarouselItem className="pt-1  md:basis-1/3">
-            <div className="bg-white text-lg shadow-lg flex gap-3  border rounded-r items-center rounded-full px-4 py-2">
-              <Image
-                className="rounded-full "
-                src="/Bacon, Gouda & Egg Sandwich.avif"
-                alt=""
-                width={70}
-                height={70}
-              />
-              Bacon, Gouda & Egg Sandwich
-            </div>
-          </CarouselItem>
-          <CarouselItem className="pt-1  md:basis-1/3">
-            <div className="bg-white text-lg shadow-lg flex gap-3  border rounded-r items-center rounded-full px-4 py-2">
-              <Image
-                className="rounded-full "
-                src="/Bacon, Gouda & Egg Sandwich.avif"
-                alt=""
-                width={70}
-                height={70}
-              />
-              Bacon, Gouda & Egg Sandwich
-            </div>
-          </CarouselItem>
+        <CarouselContent className="-mt-1 h-[400px]">
+          {/* Map through each category and its items */}
+          {Menu.map((category) =>
+            category.items.map((item) =>
+              item.subItems.map((subItem) =>
+                subItem.products.map((product, index) => (
+                  <CarouselItem
+                    key={product.link}
+                    className="pt-1 md:basis-1/3"
+                  >
+                    <button
+                      onClick={() => handleProductClick(product)}
+                      className={`${
+                        product === selectedProduct ? "bg-primary text-white" : "bg-white"
+                      } w-full text-left text-xl shadow-lg flex gap-3 rounded-r items-center rounded-full px-4 py-2 ml-[${
+                        index === 0 ? "20px" : index === 1 ? "70px" : "40px"
+                      }]`}
+                    >
+                      <Image
+                        className="rounded-full"
+                        src={product.image}
+                        alt={product.name}
+                        width={100}
+                        height={100}
+                      />
+                      {product.name}
+                    </button>
+                  </CarouselItem>
+                ))
+              )
+            )
+          )}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="mt-2" />
+        <CarouselNext className="mb-4" />
       </Carousel>
     </div>
   );
