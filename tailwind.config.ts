@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        'glow': '0 0 20px rgba(255, 255, 255, 0.8)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

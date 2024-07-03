@@ -4,6 +4,9 @@
 body {
   font-family: "EuclidCircularB", sans-serif;
 }
+.glowing-effect {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
   @layer base {
     :root {
       --background: 0 0% 100%;
