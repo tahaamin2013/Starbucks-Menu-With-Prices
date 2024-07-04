@@ -71,12 +71,7 @@ const MobileHerosection = () => {
                       View Price & Calories
                     </Button>
                   </Link>
-                  <Goy
-                    id="Menu"
-                    classname="bg-primary text-white w-full rounded-full text-sm py-2"
-                    >
-                    View Full Menu
-                  </Goy>
+                  
                 </div>
                     </div>
               </CarouselItem>

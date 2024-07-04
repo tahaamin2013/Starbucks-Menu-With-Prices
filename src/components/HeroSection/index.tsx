@@ -10,6 +10,7 @@ import { Button } from "../ui/button";
 import MobileHerosection from "./MobileHerosection";
 import Link from "next/link";
 import GoyButtonforHeroSection from "../GoyButtonforHeroSection";
+import Goy from "../goy";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -88,7 +89,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="lg:hidden sm:block text-center px-6 mt-8 mb-2">
+      <div className="lg:hidden sm:block text-center px-6 mt-8 mb-8">
         <motion.h1
           className="font-bold text-gray-900 mb-4 text-5xl"
           initial={{ opacity: 0, y: -20 }}
@@ -106,9 +107,22 @@ const HeroSection = () => {
           specialty coffee drinks, they also provide a selection of snacks and
           baked goods for those seeking a quick bite.
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+          <GoyButtonforHeroSection
+            id="Menu"
+            classname="bg-primary text-white w-full rounded-full text-sm py-2 mt-4"
+          >
+            View Full Menu
+          </GoyButtonforHeroSection>
+        </motion.div>
       </div>
       <MobileHerosection />
-      <div className="md:flex hidden pb-[50px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] xl:pl-[40px] sm:px-0 px-10 justify-between items-center">
+      <div className="md:flex hidden pb-[50px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] xl:pl-[40px] sm:px-0 justify-between items-center">
         <div className="w-fit md:w-[530px] lg:block hidden">
           <motion.h1
             className="font-bold text-gray-900 mb-8 text-6xl"
