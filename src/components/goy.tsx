@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const Goy = ({ id, children }: any) => {
+const Goy = ({ id, children, classname }: any) => {
   const [scrollMargin, setScrollMargin] = useState(0);
 
   const handleButtonClick = (e: any, myelement: string) => {
@@ -19,7 +19,7 @@ const Goy = ({ id, children }: any) => {
   };
 
   return (
-    <button onClick={(e) => handleButtonClick(e, `${id}`)}>{children}</button>
+    <button className={classname} onClick={(e) => handleButtonClick(e, `${id}`)}>{children}</button>
   );
 };
 

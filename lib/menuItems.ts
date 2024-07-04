@@ -49,7 +49,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Caffè Americano",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/to.avif",
                 link: "caffe-americano",
                 sizes: [
@@ -87,7 +87,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Veranda Blend® Clover Vertica™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/to.avif",
                 link: "veranda-blend-clover-vertica",
                 sizes: [
@@ -119,7 +119,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Featured Medium Roast Pike Place® Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/to.avif",
                 link: "featured-medium-roast-pike-place-roast",
                 sizes: [
@@ -151,7 +151,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Starbucks Odyssey Blend® Clover Vertica™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
                 link: "starbucks-0dyssey-blend-clover-vertica",
                 sizes: [
@@ -183,7 +183,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Featured Decaf Roast Decaf Pike Place® Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/to.avif",
                 link: "featured-decaf-roast-decaf-pike-place-roast",
                 sizes: [
@@ -215,7 +215,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Caffè Misto",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caffè Misto.avif",
                 link: "cffe-misto",
                 sizes: [
@@ -247,7 +247,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Featured Blonde Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/to.avif",
                 link: "featured-blonde-roast",
                 sizes: [
@@ -279,7 +279,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Featured Dark Roast Caffè Verona®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
                 link: "featured-dark-roast-caffè-verona",
                 sizes: [
@@ -312,7 +312,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Featured Dark Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Featured Dark Roast.avif",
                 link: "featured-dark-roast",
                 sizes: [
@@ -350,7 +350,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Cappuccino",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cappuccino.avif",
                 link: "cappuccino",
                 sizes: [
@@ -388,7 +388,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Espresso",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Espresso.avif",
                 link: "espresso",
                 sizes: [
@@ -420,7 +420,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Espresso Con Panna",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Espresso Con Panna.avif",
                 link: "espresso-con-panna",
                 sizes: [
@@ -458,7 +458,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Flat White",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Flat White.avif",
                 link: "flat-white",
                 sizes: [
@@ -491,7 +491,7 @@ export const Menu: Category[] = [
               {
                 // Make The Folder
                 name: "Honey Almondmilk Flat White",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Honey Almondmilk Flat White.avif",
                 link: "honey-almondmilk-flat-white",
                 sizes: [
@@ -529,7 +529,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Lavender Oatmilk Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Lavender Oatmilk Latte.avif",
                 link: "/lavender-oatmilk-latte",
                 sizes: [
@@ -561,7 +561,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Oleato™ Caffé Latte with Oatmilk",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Oleato™ Caffé Latte with Oatmilk.avif",
                 link: "oleato-caffé-latte-with-oatmilk",
                 sizes: [
@@ -593,7 +593,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Caffè Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caffè Latte.avif",
                 link: "caffè-latte",
                 sizes: [
@@ -625,7 +625,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Cinnamon Dolce Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cinnamon Dolce Latte.avif",
                 link: "cinnamon-dolce-latte",
                 sizes: [
@@ -658,7 +658,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Starbucks® Blonde Vanilla Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks® Blonde Vanilla Latte.avif",
                 link: "starbucks-blonde-vanilla-latte",
                 sizes: [
@@ -695,7 +695,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Caramel Macchiato",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caramel Macchiato.avif",
                 link: "caramel-macchiato",
                 sizes: [
@@ -732,7 +732,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Caffè Mocha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caffè Mocha.avif",
                 link: "caffè-mocha",
                 sizes: [
@@ -764,7 +764,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "White Chocolate Mocha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/White Chocolate Mocha.avif",
                 link: "white-chocolate-mocha",
                 sizes: [
@@ -802,7 +802,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Coffee Traveler - Veranda Blend®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Box.avif",
                 link: "coffee-traveler-veranda-blend",
                 sizes: [
@@ -816,7 +816,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Coffee Traveler - Dark Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Box.avif",
                 link: "Coffee-Traveler-Dark-Roast",
                 sizes: [
@@ -830,7 +830,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Coffee Traveler - Pike Place® Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Box.avif",
                 link: "coffee-traveler-pike place-roast",
                 sizes: [
@@ -844,7 +844,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Coffee Traveler - Decaf Pike Place® Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Box.avif",
                 link: "coffee-traveler-decaf-pike-place-roast",
                 sizes: [
@@ -872,7 +872,7 @@ export const Menu: Category[] = [
               {
                 // Make The Folderq
                 name: "White Chocolate Macadamia Cream Cold Brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/White Chocolate Macadamia Cream Cold Brew.avif",
                 link: "white-chocolate-macadamia-cream-cold-brew",
                 sizes: [
@@ -905,7 +905,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Salted Caramel Cream Cold Brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Salted Caramel Cream Cold Brew.avif",
                 sizes: [
                   {
@@ -937,7 +937,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "chocolate cream cold brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chocolate Cream Cold Brew.avif",
                 sizes: [
                   {
@@ -970,7 +970,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Vanilla Sweet Cream Cold Brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Vanilla Sweet Cream Cold Brew.avif",
                 sizes: [
                   {
@@ -1003,7 +1003,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Starbucks® Cold Brew Coffee",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks® Cold Brew Coffee.avif",
                 sizes: [
                   {
@@ -1041,7 +1041,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Cinnamon Caramel Cream Nitro Cold Brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cinnamon Caramel Cream Nitro Cold Brew.avif",
                 sizes: [
                   {
@@ -1062,7 +1062,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Nitro Cold Brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Nitro Cold Brew.avif",
                 sizes: [
                   {
@@ -1083,7 +1083,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Vanilla Sweet Cream Nitro Cold Brew",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Vanilla Sweet Cream Nitro Cold Brew.avif",
                 sizes: [
                   {
@@ -1110,7 +1110,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Caffè Americano",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Caffè Americano.avif",
                 sizes: [
                   {
@@ -1142,7 +1142,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Starbucks® Iced Coffee Blend",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/12.avif",
                 sizes: [
                   {
@@ -1174,7 +1174,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Starbucks® Iced Coffee Blend Clover Vertica™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/12.avif",
                 sizes: [
                   {
@@ -1206,7 +1206,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Espresso",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Espresso.avif",
                 sizes: [
                   {
@@ -1244,7 +1244,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Hazelnut Oatmilk Shaken Espresso",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Hazelnut Oatmilk Shaken Espresso.avif",
                 sizes: [
                   {
@@ -1270,7 +1270,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Brown Sugar Oatmilk Shaken Espresso",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Brown Sugar Oatmilk Shaken Espresso.avif",
                 sizes: [
                   {
@@ -1296,7 +1296,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut.avif",
                 sizes: [
@@ -1324,7 +1324,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Iced Shaken Espresso",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Shaken Espresso.avif",
                 sizes: [
                   {
@@ -1356,7 +1356,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Flat White",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Flat White.avif",
                 sizes: [
                   {
@@ -1383,7 +1383,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Iced Honey Almondmilk Flat White",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Honey Almondmilk Flat White.avif",
                 sizes: [
                   {
@@ -1415,7 +1415,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Lavender Oatmilk Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Lavender Oatmilk Latte.avif",
                 sizes: [
                   {
@@ -1441,7 +1441,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Starbucks® Blonde Vanilla Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Starbucks® Blonde Vanilla Latte.avif",
                 sizes: [
                   {
@@ -1467,7 +1467,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Caffè Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Caffè Latte.avif",
                 sizes: [
                   {
@@ -1494,7 +1494,7 @@ export const Menu: Category[] = [
               // Eman Start here
               {
                 name: "Iced Cinnamon Dolce Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Cinnamon Dolce Latte.avif",
                 sizes: [
                   {
@@ -1526,7 +1526,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Caramel Macchiato",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Caramel Macchiato.avif",
                 sizes: [
                   {
@@ -1558,7 +1558,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced White Chocolate Mocha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced White Chocolate Mocha.avif",
                 sizes: [
                   {
@@ -1584,7 +1584,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Caffè Mocha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Caffè Mocha.avif",
                 sizes: [
                   {
@@ -1623,7 +1623,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Summer-Berry Lemonade Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Summer-Berry Lemonade Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1656,7 +1656,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Summer Skies Drink Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Summer Skies Drink Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1689,7 +1689,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Summer-Berry Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Summer-Berry Starbucks Refreshers® Beverage.avif",
                 sizes: [
                   {
@@ -1726,7 +1726,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1759,7 +1759,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1792,7 +1792,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1825,7 +1825,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1860,7 +1860,7 @@ export const Menu: Category[] = [
               //DS
               {
                 name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -1899,7 +1899,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Pink Drink Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Pink Drink Starbucks Refreshers® Beverage.avif",
                 sizes: [
                   {
@@ -1931,7 +1931,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Dragon Drink® Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Dragon Drink® Starbucks Refreshers® Beverage.avif",
                 sizes: [
                   {
@@ -1963,7 +1963,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Paradise Drink Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Paradise Drink Starbucks Refreshers® Beverage.avif",
                 sizes: [
                   {
@@ -1995,7 +1995,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
                 sizes: [
@@ -2028,7 +2028,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
                 sizes: [
@@ -2067,7 +2067,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Strawberry Açaí Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
                 sizes: [
                   {
@@ -2099,7 +2099,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Mango Dragonfruit Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Mango Dragonfruit Starbucks Refreshers® Beverage.avif",
                 sizes: [
                   {
@@ -2131,7 +2131,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Pineapple Passionfruit Starbucks Refreshers® Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Pineapple Passionfruit Starbucks Refreshers® Beverage.avif",
                 sizes: [
@@ -2177,7 +2177,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Mocha Cookie Crumble Frappuccino®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Mocha Cookie Crumble Frappuccino®.avif",
                 sizes: [
                   {
@@ -2204,7 +2204,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "caramel ribbon crunch frappuccino® blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Caramel Ribbon Crunch Frappuccino® Blended Beverage.avif",
                 sizes: [
@@ -2231,7 +2231,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Espresso Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Espresso Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2257,7 +2257,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Coffee Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Coffee Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2283,7 +2283,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Caffè Vanilla Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caffè Vanilla Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2309,7 +2309,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Caramel Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caramel Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2336,7 +2336,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Mocha Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Mocha Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2362,7 +2362,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Java Chip Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Java Chip Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2388,7 +2388,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "White Chocolate Mocha Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/White Chocolate Mocha Frappuccino® Blended Beverage.avif",
                 sizes: [
@@ -2421,7 +2421,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Lavender Crème Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Lavender Crème Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2447,7 +2447,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Chocolate Cookie Crumble Crème Frappuccino®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chocolate Cookie Crumble Crème Frappuccino®.avif",
                 sizes: [
                   {
@@ -2473,7 +2473,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage.avif",
                 sizes: [
@@ -2500,7 +2500,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Strawberry Crème Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Strawberry Crème Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2526,7 +2526,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Chai Crème Frappuccino®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chai Crème Frappuccino®.avif",
                 sizes: [
                   {
@@ -2552,7 +2552,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Double Chocolaty Chip Crème Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Double Chocolaty Chip Crème Frappuccino® Blended Beverage.avif",
                 sizes: [
@@ -2579,7 +2579,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Matcha Crème Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Matcha Crème Frappuccino® Blended Beverage.avif",
                 sizes: [
                   {
@@ -2605,7 +2605,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Vanilla Bean Crème Frappuccino® Blended Crème",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Vanilla Bean Crème Frappuccino® Blended Crème.avif",
                 sizes: [
                   {
@@ -2631,7 +2631,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "White Chocolate Crème Frappuccino® Blended Beverage",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/White Chocolate Crème Frappuccino® Blended Beverage.avif",
                 sizes: [
@@ -2670,7 +2670,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Black Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Black Tea.avif",
                 sizes: [
                   {
@@ -2702,7 +2702,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Black Tea Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Black Tea Lemonade.avif",
                 sizes: [
                   {
@@ -2734,7 +2734,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Royal English Breakfast Tea Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Royal English Breakfast Tea Latte.avif",
                 sizes: [
                   {
@@ -2761,7 +2761,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Iced London Fog Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced London Fog Latte.avif",
                 sizes: [
                   {
@@ -2793,7 +2793,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Chai Tea Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Chai Tea Latte.jpg",
                 sizes: [
                   {
@@ -2819,7 +2819,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Chai Tea Latte with Oleato Golden Foam™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Chai Tea Latte with Oleato Golden Foam™.avif",
                 sizes: [
                   {
@@ -2851,7 +2851,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Lavender Cream Oatmilk Matcha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Lavender Cream Oatmilk Matcha.avif",
                 sizes: [
                   {
@@ -2878,7 +2878,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Peach Green Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Peach Green Tea.avif",
                 sizes: [
                   {
@@ -2910,7 +2910,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Peach Green Tea Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Peach Green Tea Lemonade.avif",
                 sizes: [
                   {
@@ -2942,7 +2942,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Matcha Tea Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Matcha Tea Latte.avif",
                 sizes: [
                   {
@@ -2968,7 +2968,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Green Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Green Tea.avif",
                 sizes: [
                   {
@@ -3000,7 +3000,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Green Tea Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Green Tea Lemonade.avif",
                 sizes: [
                   {
@@ -3032,7 +3032,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Matcha Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Matcha Lemonade.avif",
                 sizes: [
                   {
@@ -3064,7 +3064,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Matcha Tea Latte with Oleato Golden Foam™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Matcha Tea Latte with Oleato Golden Foam™.avif",
                 sizes: [
                   {
@@ -3095,7 +3095,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Iced Passion Tango® Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Passion Tango® Tea.avif",
                 sizes: [
                   {
@@ -3127,7 +3127,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Passion Tango® Tea Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Passion Tango® Tea Lemonade.avif",
                 sizes: [
                   {
@@ -3164,7 +3164,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Lemonade.avif",
                 sizes: [
                   {
@@ -3202,7 +3202,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Blended Strawberry Lemonade",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Blended Strawberry Lemonade.avif",
                 sizes: [
                   {
@@ -3241,7 +3241,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Chai Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chai Tea Latte.avif",
                 sizes: [
                   {
@@ -3273,7 +3273,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Chai Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chai Tea.avif",
                 sizes: [
                   {
@@ -3311,7 +3311,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Earl Grey Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Earl Grey Tea.avif",
                 sizes: [
                   {
@@ -3344,7 +3344,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Royal English Breakfast Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Royal English Breakfast Tea.avif",
                 sizes: [
                   {
@@ -3376,7 +3376,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Royal English breakfast latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Royal English breakfast tea latte.avif",
                 sizes: [
                   {
@@ -3414,7 +3414,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Emperors Clouds and Mist",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Emperor’s Clouds & Mist®.avif",
                 sizes: [
                   {
@@ -3446,7 +3446,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Matcha Latte",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Matcha Tea Latte.avif",
                 sizes: [
                   {
@@ -3478,7 +3478,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Honey Citrus Mint Tea",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Honey Citrus Mint Tea.avif",
                 sizes: [
                   {
@@ -3516,7 +3516,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Mint Majesty",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chai Tea.avif",
                 sizes: [
                   {
@@ -3561,7 +3561,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Hot Chocolate",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Hot Chocolate.avif",
                 sizes: [
                   {
@@ -3575,7 +3575,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "White Hot Chocolate",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/White Hot Chocolate.avif",
                 sizes: [
                   {
@@ -3618,7 +3618,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Caramel Apple Spice",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caramel Apple Spice.avif",
                 sizes: [
                   {
@@ -3656,7 +3656,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Steamed Apple Juice",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Steamed Apple Juice.avif",
                 sizes: [
                   {
@@ -3700,7 +3700,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Cold Milk",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cold Milk.avif",
                 sizes: [
                   {
@@ -3726,7 +3726,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Steamed Milk",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Steamed Milk.avif",
                 sizes: [
                   {
@@ -3765,7 +3765,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Vanilla Crème",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Vanilla Crème.avif",
                 sizes: [
                   {
@@ -3816,7 +3816,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Spindrift® Lemon Sparkling Water",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Spindrift® Lemon Sparkling Water.avif",
                 sizes: [
                   {
@@ -3830,7 +3830,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Spindrift® Raspberry Lime Sparkling Water",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Spindrift® Raspberry Lime Sparkling Water.avif",
                 sizes: [
                   {
@@ -3844,7 +3844,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Spindrift® Grapefruit Sparkling Water",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Spindrift® Grapefruit Sparkling Water.jpg",
                 sizes: [
                   {
@@ -3858,7 +3858,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Ethos® Bottled Water",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Ethos® Bottled Water.avif",
                 sizes: [
                   {
@@ -3877,7 +3877,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Koia® Cacao Bean Protein Shake",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Koia® Cacao Bean Protein Shake.avif",
                 sizes: [
                   {
@@ -3891,7 +3891,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Koia® Vanilla Bean Protein Shake",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Koia® Vanilla Bean Protein Shake.avif",
                 sizes: [
                   {
@@ -3905,7 +3905,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Horizon® Chocolate Organic Milk",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Horizon® Chocolate Organic Milk.avif",
                 sizes: [
                   {
@@ -3919,7 +3919,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Horizon® Organic Lowfat Milk Box",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Horizon® Organic Lowfat Milk Box.avif",
                 sizes: [
                   {
@@ -3939,7 +3939,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Evolution Fresh® Organic Defense Up®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Evolution Fresh® Organic Defense Up®.avif",
                 sizes: [
                   {
@@ -3953,7 +3953,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Evolution Fresh® Orange",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Evolution Fresh® Orange.avif",
                 sizes: [
                   {
@@ -3967,7 +3967,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Evolution Fresh® Organic Super Fruit Greens",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Evolution Fresh® Organic Super Fruit Greens.avif",
                 sizes: [
                   {
@@ -3982,7 +3982,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Tree Top Apple Juice Box",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Tree Top Apple Juice Box.avif",
                 sizes: [
                   {
@@ -3996,7 +3996,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Starbucks™ Baya Energy Raspberry Lime",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks™ Baya Energy Raspberry Lime.avif",
                 sizes: [
                   {
@@ -4015,7 +4015,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Brew DR. Island Mango Kombucha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Brew DR. Island Mango Kombucha.avif",
                 sizes: [
                   {
@@ -4029,7 +4029,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Brew DR. Superberry Kombucha",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Brew DR. Superberry Kombucha.avif",
                 sizes: [
                   {
@@ -4062,7 +4062,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Chicken, Maple Butter & Egg Sandwich",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chicken, Maple Butter & Egg Sandwich.avif",
                 calories: 450,
                 price: "$6.45",
@@ -4070,7 +4070,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Bacon, Sausage & Egg Wrap",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Bacon, Sausage & Egg Wrap.avif",
                 calories: 640,
                 price: "$7.25",
@@ -4078,7 +4078,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Impossible Breakfast sandwich",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Impossible™ Breakfast Sandwich.avif",
                 calories: 420,
                 price: "$6.45",
@@ -4086,7 +4086,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Bacon, Gouda & Egg Sandwich",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Bacon, Gouda & Egg Sandwich.avif",
                 calories: 360,
                 price: "$6.25",
@@ -4094,7 +4094,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Double-Smoked Bacon, Cheddar & Egg Sandwich",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
                 calories: 500,
                 price: "$6.45",
@@ -4102,7 +4102,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Turkey Bacon, Cheddar & Egg White Sandwich",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Turkey Bacon, Cheddar & Egg White Sandwich.avif",
                 calories: 230,
                 price: "$5.65",
@@ -4110,7 +4110,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Sausage, Cheddar & Egg Sandwich",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Sausage, Cheddar & Egg Sandwich.avif",
                 calories: 480,
                 price: "$5.65",
@@ -4118,7 +4118,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Spinach, Feta & Egg White Wrap",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Spinach, Feta & Egg White Wrap.avif",
                 calories: 290,
                 price: "$5.95",
@@ -4126,7 +4126,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Avocado Spread",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Avocado Spread.avif",
                 calories: 90,
                 price: "$1.45",
@@ -4140,7 +4140,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Potato, Cheddar & Chive Bakes",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Potato, Cheddar & Chive Bakes.avif",
                 calories: 210,
                 price: "$4.95",
@@ -4148,7 +4148,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Kale & Mushroom Egg Bites",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Kale & Mushroom Egg Bites.avif",
                 calories: 230,
                 price: "$5.95",
@@ -4156,7 +4156,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Bacon & Gruyere Egg Bites",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Bacon & Gruyère Egg Bites.avif",
                 calories: 300,
                 price: "$5.95",
@@ -4164,7 +4164,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Egg White & Roasted Red Pepper Egg Bites",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Egg White & Roasted Red Pepper Egg Bites.avif",
                 calories: 170,
                 price: "$5.95",
@@ -4185,7 +4185,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Rolled & Steel-Cut Oatmeal",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Oatmeal & Yogurt.avif",
                 calories: 160,
                 price: "$4.65",
@@ -4193,7 +4193,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Berry Trio Parfait",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Berry Trio Parfait.avif",
                 calories: 240,
                 price: "$4.25",
@@ -4214,7 +4214,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Plain Bagel",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Plain Bagel.avif",
                 calories: 290,
                 price: "$3.25",
@@ -4222,7 +4222,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Everything Bagel",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Everything Bagel.avif",
                 calories: 290,
                 price: "$3.25",
@@ -4230,7 +4230,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Avocado Spread",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Avocado Spread.avif",
                 calories: 90,
                 price: "$1.45",
@@ -4244,7 +4244,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Orange Cream Cake Pop",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Orange Cream Cake Pop.avif",
                 calories: 140,
                 price: "$4.25",
@@ -4252,7 +4252,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Cookies & Cream Cake Pop",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cookies & Cream Cake Pop.avif",
                 calories: 140,
                 price: "$3.95",
@@ -4260,7 +4260,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Birthday Cake Pop",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Birthday Cake Pop.avif",
                 calories: 160,
                 price: "$3.95",
@@ -4268,7 +4268,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Chocolate Cake Pop",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chocolate Cake Pop.avif",
                 calories: 150,
                 price: "$3.95",
@@ -4282,7 +4282,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Double Chocolate Brownie",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Double Chocolate Brownie.avif",
                 calories: 480,
                 price: "$4.25",
@@ -4290,7 +4290,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Chocolate Chip Cookie",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chocolate Chip Cookie.avif",
                 calories: 370,
                 price: "$2.95",
@@ -4298,7 +4298,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Marshmallow Dream Bar",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Marshmallow Dream Bar.avif",
                 calories: 230,
                 price: "$2.50",
@@ -4311,7 +4311,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Ham & Swiss Croissant",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Ham & Swiss Croissant.avif",
                 calories: 320,
                 price: "$4.95",
@@ -4319,7 +4319,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Butter Croissant",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Butter Croissant.avif",
                 calories: 250,
                 price: "$3.65",
@@ -4327,7 +4327,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Chocolate Croissant",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Chocolate Croissant.avif",
                 calories: 300,
                 price: "$3.95",
@@ -4340,7 +4340,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Pineapple Cloud Cake",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Pineapple Cloud Cake.avif",
                 calories: 240,
                 price: "$3.65",
@@ -4349,7 +4349,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Cinnamon Coffee Cake",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cinnamon Coffee Cake.avif",
                 calories: 380,
                 price: "$3.95",
@@ -4357,7 +4357,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Iced Lemon Loaf",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Iced Lemon Loaf.avif",
                 calories: 450,
                 price: "$4.25",
@@ -4365,7 +4365,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Banana Walnut & Pecan Loaf",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Banana Walnut & Pecan Loaf.avif",
                 calories: 410,
                 price: "$4.25",
@@ -4373,7 +4373,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Pumpkin & Pepita Loaf",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Pumpkin & Pepita Loaf.avif",
                 calories: 390,
                 price: "$4.25",
@@ -4388,7 +4388,7 @@ export const Menu: Category[] = [
               // do this
               {
                 name: "Vanilla Bean Custard Danish",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Vanilla Bean Custard Danish.avif",
                 calories: 230,
                 price: "$4.70",
@@ -4396,7 +4396,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Glazed Doughnut",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Glazed Doughnut.avif",
                 calories: 440,
                 price: "$3.25",
@@ -4404,7 +4404,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Cheese Danish",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cheese Danish.avif",
                 calories: 290,
                 price: "$3.65",
@@ -4412,7 +4412,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Blueberry Scone",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Blueberry Scone.avif",
                 calories: 410,
                 price: "$3.45",
@@ -4421,7 +4421,7 @@ export const Menu: Category[] = [
 
               {
                 name: "Petite Vanilla Bean Scone",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Petite Vanilla Bean Scone.avif",
                 calories: 130,
                 price: "$2.25",
@@ -4429,7 +4429,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Blueberry Muffin",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Blueberry Muffin.avif",
                 calories: 330,
                 price: "$3.65",
@@ -4450,7 +4450,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Crispy Grilled Cheese on Sourdough",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Crispy Grilled Cheese on Sourdough.avif",
                 calories: 520,
                 price: "$7.45",
@@ -4458,7 +4458,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Ham & Swiss on Baguette",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Ham & Swiss on Baguette.avif",
                 calories: 500,
                 price: "$7.85",
@@ -4466,7 +4466,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Turkey, Provolone & Pesto on Ciabatta",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Turkey, Provolone & Pesto on Ciabatta.avif",
                 calories: 520,
                 price: "$7.45",
@@ -4474,7 +4474,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Tomato & Mozzarella on Facoccia",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Tomato & Mozzarella on Focaccia.avif",
                 calories: 360,
                 price: "$6.95",
@@ -4482,7 +4482,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Avocado Spread",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Avocado Spread.avif",
                 calories: 90,
                 price: "$1.45",
@@ -4496,7 +4496,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Eggs & Cheddar Protein Box",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Eggs & Cheddar Protein Box.avif",
                 calories: 460,
                 price: "$6.95",
@@ -4504,7 +4504,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "PB&J Protein Box",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/PB&J Protein Box.avif",
                 calories: 520,
                 price: "$6.75",
@@ -4512,7 +4512,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Cheese & Fruit Protein Box",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Cheese & Fruit Protein Box.avif",
                 calories: 470,
                 price: "$6.75",
@@ -4533,7 +4533,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Madeleines",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Madeleines.avif",
                 calories: 220,
                 price: "$2.45",
@@ -4541,7 +4541,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Vanilla Biscotti with Almonds",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Vanilla Biscotti with Almonds.avif",
                 calories: 200,
                 price: "$1.95",
@@ -4554,7 +4554,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Salted Almond Chocolate Bites",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Salted Almond Chocolate Bites.avif",
                 calories: 300,
                 price: "$2.75",
@@ -4562,7 +4562,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Dark Chocolate Covered Espresso Beans",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Dark Chocolate Covered Espresso Beans.avif",
                 calories: 260,
                 price: "$3.50",
@@ -4575,7 +4575,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "SkinnyDipped Lemon Bliss Almonds",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/SkinnyDipped Lemon Bliss Almonds.avif",
                 calories: 170,
                 price: "$2.95",
@@ -4583,7 +4583,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Skinny Dipped Dark Chocolate Cocoa Almonds",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/SkinnyDipped Dark Chocolate Cocoa Almonds.avif",
                 calories: 170,
                 price: "$2.95",
@@ -4591,7 +4591,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Peter Rabbit™ Organics Strawberry Banana",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Peter Rabbit™ Organics Strawberry Banana.avif",
                 calories: 80,
                 price: "$2.25",
@@ -4604,7 +4604,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Spearmint Gum",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Spearmint Gum.avif",
                 calories: 0,
                 price: "$2.50",
@@ -4617,7 +4617,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Siete Sea Salt Kettle Cooked Potato Chips",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Siete Sea Salt Kettle Cooked Potato Chips.avif",
                 calories: 210,
                 price: "$2.55",
@@ -4625,7 +4625,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Starbucks Butter Popcorn",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks Butter Popcorn.avif",
                 calories: 150,
                 price: "$1.50",
@@ -4633,7 +4633,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Perfectly Salted Chips",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Perfectly Salted Chips.avif",
                 calories: 280,
                 price: "$1.75",
@@ -4646,7 +4646,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "String Cheese",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/String Cheese.jpg",
                 calories: 0,
                 price: "$2.25",
@@ -4659,7 +4659,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Perfect Bar® - Dark Chocolate Chip Peanut Butter",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Perfect Bar® - Dark Chocolate Chip Peanut Butter.avif",
                 calories: 320,
                 price: "$3.95",
@@ -4667,7 +4667,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Perfect Bar® Peanut Butter",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/SPerfect Bar® Peanut Butter.avif",
                 calories: 330,
                 price: "$3.95",
@@ -4675,7 +4675,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "KIND® Salted Caramel & Dark Chocolate Nut Bar",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/KIND® Salted Caramel & Dark Chocolate Nut Bar.avif",
                 calories: 200,
                 price: "$2.25",
@@ -4689,7 +4689,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Avocado Spread",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Avocado Spread.avif",
                 calories: 90,
                 price: "$1.45",
@@ -4716,7 +4716,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Starbucks® Green Apron Blend™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks® Green Apron Blend™.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4724,7 +4724,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "VIA® Veranda Blend™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/VIA® Veranda Blend™.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4732,7 +4732,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Starbucks® Blonde Espresso Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks® Blonde Espresso Roast.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4745,7 +4745,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Starbucks Siren's Blend",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks Siren’s Blend™.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4753,7 +4753,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Guatemala Antigua",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Guatemala Antigua.avif",
                 size: "1lb",
                 price: "$14.95",
@@ -4761,7 +4761,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Pike Place® Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Pike Place® Roast.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4769,7 +4769,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Organic Yukon Blend®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Organic Yukon Blend®.avif",
                 size: "1lb",
                 price: "$14.95",
@@ -4777,7 +4777,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Starbucks Odyssey Blend® 2024",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks Odyssey Blend® 2024.avif",
                 size: "1lb",
                 price: "$15.95",
@@ -4790,7 +4790,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Starbucks® Anniversary Blend 2024",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks® Anniversary Blend 2024.avif",
                 size: "1lb",
                 price: "$15.95",
@@ -4798,7 +4798,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Decaf Sumatra",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Decaf Sumatra.avif",
                 size: "1lb",
                 price: "$14.95",
@@ -4806,7 +4806,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Caffè Verona®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Caffè Verona®.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4814,7 +4814,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Espresso Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Espresso Roast.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4822,7 +4822,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Italian Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Italian Roast.avif",
                 size: "1lb",
                 price: "$13.95",
@@ -4830,7 +4830,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Komodo Dragon Blend®",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Komodo Dragon Blend®.avif",
                 size: "1lb",
                 price: "$14.95",
@@ -4838,7 +4838,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Sumatra",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Sumatra.avif",
                 size: "1lb",
                 price: "$14.95",
@@ -4858,7 +4858,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "VIA® Sweetened Iced Coffee",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/VIA® Sweetened Iced Coffee.avif",
                 price: "$7.95",
                 link: "",
@@ -4870,7 +4870,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "VIA® Veranda Blend™",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/VIA® Veranda Blend™.avif",
                 price: "$11.95",
                 link: "",
@@ -4882,7 +4882,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Starbucks VIA® Instant Pike Place® Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks VIA® Instant Pike Place® Roast.avif",
                 price: "$11.95",
                 link: "",
@@ -4894,14 +4894,14 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "VIA® Italian Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/VIA® Italian Roast.avif",
                 price: "$11.95",
                 link: "",
               },
               {
                 name: "VIA® Decaf Italian Roast",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/VIA® Decaf Italian Roast.avif",
                 price: "$12.95",
                 link: "",
@@ -4927,21 +4927,21 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "White Siren Bling Plastic Cold Cup - 16 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/White Siren Bling Plastic Cold Cup - 16 fl oz.avif",
                 price: "$19.95",
                 link: "",
               },
               {
                 name: "White Siren Bling Plastic Cold Cup - 24 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/White Siren Bling Plastic Cold Cup - 24 fl oz.avif",
                 price: "$22.95",
                 link: "",
               },
               {
                 name: "UV Color - Changing Plastic Reusable Cold Cup with straw - 24 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/UV Color-Changing Plastic Reusable Cold Cup with Straw - 24 fl oz.avif",
                 price: "$4.95",
@@ -4949,7 +4949,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Sky Blue Soft - Touch Stainless - Steel Vacuum Cold Cup - 24 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Sky Blue Soft-Touch Stainless-Steel Vacuum Cold Cup - 24 fl oz.avif",
                 price: "$59.95",
@@ -4957,7 +4957,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Multicolor Plastic Reusable Cold Cup with Dome Lid, 5-Pack - 24 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Multicolor Plastic Reusable Cold Cup with Dome Lid, 5-Pack - 24 fl oz.avif",
                 price: "$22.95",
@@ -4965,7 +4965,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Plastic Reusable Cold Cup with Lid & Straw - 24 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image:
                   "/Plastic Reusable Cold Cup with Lid & Straw - 24 fl oz.avif",
                 price: "$3.00",
@@ -4973,7 +4973,7 @@ export const Menu: Category[] = [
               },
               {
                 name: "Siren Logo Plastic Cold Cup - 24 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Siren Logo Plastic Cold Cup - 24 fl oz.avif",
                 price: "$14.95",
                 link: "",
@@ -4992,7 +4992,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Siren Logo Plastic Hot Cup - 16 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Tumblers.avif",
                 price: "$2.00",
                 link: "",
@@ -5011,7 +5011,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Glass Mug - 16 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Mugs.avif",
 
                 price: "$16.95",
@@ -5031,7 +5031,7 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Water Bottles.avif",
                 price: "$32.95",
                 link: "",
@@ -5050,21 +5050,21 @@ export const Menu: Category[] = [
             products: [
               {
                 name: "French Press",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Other.avif",
                 price: "$24.95",
                 link: "",
               },
               {
                 name: "Pour Over",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Pour Over.avif",
                 price: "$17.95",
                 link: "",
               },
               {
                 name: "Small Shopping Bag",
-                description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
+                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Small Shopping Bag.avif",
                 price: "$0.00",
                 link: "",

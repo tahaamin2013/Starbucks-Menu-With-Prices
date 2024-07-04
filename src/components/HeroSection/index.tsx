@@ -7,6 +7,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Menu } from "@/lib/menuItems";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "../ui/button";
+import MobileHerosection from "./MobileHerosection";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -71,7 +72,9 @@ const HeroSection = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="flex pb-[100px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] justify-between items-center">
+    <>
+    <MobileHerosection />
+    <div className="md:flex hidden pb-[50px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] xl:pl-[40px] sm:px-0 px-10 justify-between items-center">
       <div className="w-fit md:w-[530px]">
         <motion.h1
           className="font-bold text-gray-900 mb-3 text-4xl"
@@ -169,6 +172,7 @@ const HeroSection = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 

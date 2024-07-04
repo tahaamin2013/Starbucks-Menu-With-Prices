@@ -10,7 +10,6 @@ import Goy from "../goy";
 const Navbar = () => {
   const router = useRouter();
 
-
   useEffect(() => {
     const refreshLink = document.getElementById("refreshLink");
     const handleRefreshClick = () => {
