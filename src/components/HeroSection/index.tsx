@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   Carousel,
   CarouselContent,
@@ -13,16 +13,18 @@ import {
 import { Menu } from "@/lib/menuItems";
 
 const HeroSection = () => {
-  const [selectedProduct, setSelectedProduct] = useState(Menu[0].items[0].subItems[0].products[0]);
+  const [selectedProduct, setSelectedProduct] = useState(
+    Menu[0].items[0].subItems[0].products[0]
+  );
 
-  const handleProductClick = (product: any) => {
+  const handleProductClick = (product) => {
     setSelectedProduct(product);
   };
 
   return (
     <div className="flex pb-[100px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] justify-between items-center">
       <div className="w-fit md:w-[530px]">
-      <motion.h1 
+        <motion.h1
           className="font-bold text-gray-900 mb-3 text-4xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -34,10 +36,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
         >
-        
-        {selectedProduct.description}
+          {selectedProduct.description}
         </motion.p>
-        <motion.button 
+        <motion.button
           className="px-5 py-3 bg-primary text-white font-bold rounded-full mt-4"
           whileHover={{ scale: 1.1 }}
           initial={{ opacity: 0, y: 10 }}
@@ -46,7 +47,7 @@ const HeroSection = () => {
         >
           View Details
         </motion.button>
-        <motion.button 
+        <motion.button
           className="px-5 py-2.5 ml-4 bg-white border-primary border-2 text-black font-bold rounded-full mt-4"
           whileHover={{ scale: 1.1 }}
           initial={{ opacity: 0, y: 10 }}
@@ -56,19 +57,30 @@ const HeroSection = () => {
           View Full Menu
         </motion.button>
       </div>
-      <motion.div
-        className="ml-0 md:mt-0 mt-5 md:ml-6"
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-      >
-        <Image
-          className="rounded-full shadow-glow shadow-primary"
-          src={selectedProduct.image}
-          alt={`${selectedProduct.name} Image`}
-          width={415}
-          height={415}
-        />
-      </motion.div>
+      <AnimatePresence exitBeforeEnter>
+        <motion.div
+          className="ml-0 md:mt-0 mt-5 md:ml-6"
+          key={selectedProduct.image}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.8 }}
+          transition={{ duration: 0.3 }}
+        >
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
+          >
+            <Image
+              className="rounded-full shadow-glow shadow-primary"
+              src={selectedProduct.image}
+              alt={`${selectedProduct.name} Image`}
+              width={415}
+              height={415}
+              layout="fixed"
+            />
+          </motion.div>
+        </motion.div>
+      </AnimatePresence>
 
       <Carousel
         opts={{
@@ -78,7 +90,6 @@ const HeroSection = () => {
         className="w-full ml-6 mt-5 max-w-sm"
       >
         <CarouselContent className="-mt-1 h-[400px]">
-          {/* Map through each category and its items */}
           {Menu.map((category) =>
             category.items.map((item) =>
               item.subItems.map((subItem) =>
@@ -87,13 +98,17 @@ const HeroSection = () => {
                     key={product.link}
                     className="pt-1 md:basis-1/3"
                   >
-                    <button
+                    <motion.button
                       onClick={() => handleProductClick(product)}
                       className={`${
-                        product === selectedProduct ? "bg-primary text-white" : "bg-white"
-                      } w-full text-left text-xl shadow-lg flex gap-3 rounded-r items-center rounded-full px-4 py-2 ml-[${
-                        index === 0 ? "20px" : index === 1 ? "70px" : "40px"
-                      }]`}
+                        product === selectedProduct
+                          ? "bg-primary text-white"
+                          : "bg-white"
+                      } w-full text-left text-xl shadow-lg flex gap-3 rounded-r items-center rounded-full px-4 py-2 ml-[${index === 0 ? "20px" : index === 1 ? "70px" : "40px"}]`}
+                      whileHover={{ scale: 1.05 }}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 * index }}
                     >
                       <Image
                         className="rounded-full"
@@ -103,7 +118,7 @@ const HeroSection = () => {
                         height={100}
                       />
                       {product.name}
-                    </button>
+                    </motion.button>
                   </CarouselItem>
                 ))
               )
@@ -118,3 +133,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

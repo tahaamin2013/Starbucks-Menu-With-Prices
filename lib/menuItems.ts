@@ -82,7 +82,7 @@ export const Menu: Category[] = [
             ],
           },
 
-          {
+          { 
             category: "Brewed Coffees",
             products: [
               {
