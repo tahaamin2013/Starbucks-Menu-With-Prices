@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import Image from "next/image";
 import {
   Carousel,
@@ -14,21 +14,33 @@ import Goy from "../goy";
 
 function convertNameToLink(name: any) {
   return name
-    .normalize("NFD") // Normalize to separate base characters and diacritics
-    .replace(/[\u0300-\u036f]/g, "") // Remove diacritics
-    .toLowerCase() // Convert to lowercase
-    .replace(/&/g, "and") // Replace & with and
-    .replace(/[®™,.\s]+/g, "-") // Replace ®, ™, comma, dot, and spaces with hyphen
-    .replace(/-+/g, "-") // Replace multiple hyphens with a single hyphen
-    .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[®™,.\s]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+// Fisher-Yates shuffle algorithm
+function shuffleArray(array: any[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 const MobileHerosection = () => {
-  const allProducts = Menu.flatMap((category) =>
-    category.items.flatMap((item) =>
-      item.subItems.flatMap((subItem) => subItem.products)
-    )
-  );
+  const allProducts = useMemo(() => {
+    const products = Menu.flatMap((category) =>
+      category.items.flatMap((item) =>
+        item.subItems.flatMap((subItem) => subItem.products)
+      )
+    );
+    return shuffleArray([...products]); // Create a shuffled copy of the products array
+  }, []); // Empty dependency array means this will only run once when the component mounts
 
   return (
     <div className="md:hidden flex px-14">
