@@ -1,5 +1,4 @@
-'use client'
-
+"use client"
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -17,7 +16,7 @@ const HeroSection = () => {
     Menu[0].items[0].subItems[0].products[0]
   );
 
-  const handleProductClick = (product) => {
+  const handleProductClick = (product:any) => {
     setSelectedProduct(product);
   };
 
@@ -57,7 +56,7 @@ const HeroSection = () => {
           View Full Menu
         </motion.button>
       </div>
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <motion.div
           className="ml-0 md:mt-0 mt-5 md:ml-6"
           key={selectedProduct.image}
@@ -133,4 +132,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
