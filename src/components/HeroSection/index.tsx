@@ -115,7 +115,7 @@ const HeroSection = () => {
         >
           <GoyButtonforHeroSection
             id="Menu"
-            classname="bg-primary text-white w-full rounded-full text-sm py-2 mt-4"
+            classname="bg-transparent border-2 text-primary border-primary hover:!text-primary w-full rounded-full text-sm py-2 mt-4"
           >
             View Full Menu
           </GoyButtonforHeroSection>

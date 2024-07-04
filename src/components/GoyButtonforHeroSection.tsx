@@ -20,7 +20,7 @@ const GoyButtonforHeroSection = ({ id, children, classname }: any) => {
   };
 
   return (
-    <Button className={classname} onClick={(e) => handleButtonClick(e, `${id}`)}>{children}</Button>
+    <Button variant="ghost" className={classname} onClick={(e) => handleButtonClick(e, `${id}`)}>{children}</Button>
   );
 };
 
