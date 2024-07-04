@@ -4565,12 +4565,11 @@ export const Menu: Category[] = [
                 description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
                 image: "/Dark Chocolate Covered Espresso Beans.avif",
                 calories: 260,
-                price: "no $3.50",
+                price: "$3.50",
                 link: "",
               },
             ],
           },
-
           {
             category: "Fruit & Nuts",
             products: [
@@ -4667,7 +4666,7 @@ export const Menu: Category[] = [
                 link: "",
               },
               {
-                name: "SPerfect Bar® Peanut Butter",
+                name: "Perfect Bar® Peanut Butter",
                 description:"loremfdsdsds fdslkfdsjlkfds dslkjflkds lkfdsjdslk js lkfdsj lkdsfjmlkdsjf dslkfsj lkjflkd jfdslkjf lkjdsflkdsjf lsksdjfodsf jlkdjlkfds ",
                 image: "/SPerfect Bar® Peanut Butter.avif",
                 calories: 330,
