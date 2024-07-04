@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import useEmblaCarousel from "embla-carousel-react";
 import { Menu } from "@/lib/menuItems";
@@ -11,6 +11,14 @@ import MobileHerosection from "./MobileHerosection";
 import Link from "next/link";
 import GoyButtonforHeroSection from "../GoyButtonforHeroSection";
 import Goy from "../goy";
+
+function shuffleArray(array: any[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,11 +30,14 @@ const HeroSection = () => {
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ axis: "y" });
 
-  const allProducts = Menu.flatMap((category) =>
-    category.items.flatMap((item) =>
-      item.subItems.flatMap((subItem) => subItem.products)
-    )
-  );
+  const allProducts = useMemo(() => {
+    const products = Menu.flatMap((category) =>
+      category.items.flatMap((item) =>
+        item.subItems.flatMap((subItem) => subItem.products)
+      )
+    );
+    return shuffleArray([...products]); // Create a shuffled copy of the products array
+  }, []); // Empty dependency array means this will only run once when the component mounts
 
   const scrollTo = useCallback(
     (index: number) => {
@@ -115,7 +126,7 @@ const HeroSection = () => {
         >
           <GoyButtonforHeroSection
             id="Menu"
-            classname="bg-transparent border-2 text-primary border-primary hover:!text-primary w-full rounded-full text-sm py-2 mt-4"
+            classname="bg-transparent border-2 text-primary border-primary hover:!text-primary w-full rounded-full text-sm py-2 mt-5"
           >
             View Full Menu
           </GoyButtonforHeroSection>
