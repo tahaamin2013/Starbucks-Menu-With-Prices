@@ -88,29 +88,29 @@ const HeroSection = () => {
 
   return (
     <>
-      <MobileHerosection />
-        <div className="lg:hidden block text-center px-6 mt-8">
+      <div className="lg:hidden sm:block text-center px-6 mt-8 mb-2">
         <motion.h1
-            className="font-bold text-gray-900 mb-4 text-5xl"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-          >
-            Starbucks Menu With Prices 2024
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            >
-            Starbucks offers a diverse menu, including espresso, coffee, tea,
-            bakery items, breakfast, and lunch options. In addition to their
-            specialty coffee drinks, they also provide a selection of snacks and
-            baked goods for those seeking a quick bite.
-          </motion.p>
-        </div>
+          className="font-bold text-gray-900 mb-4 text-5xl"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          Starbucks Menu With Prices 2024
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+          Starbucks offers a diverse menu, including espresso, coffee, tea,
+          bakery items, breakfast, and lunch options. In addition to their
+          specialty coffee drinks, they also provide a selection of snacks and
+          baked goods for those seeking a quick bite.
+        </motion.p>
+      </div>
+      <MobileHerosection />
       <div className="md:flex hidden pb-[50px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] xl:pl-[40px] sm:px-0 px-10 justify-between items-center">
         <div className="w-fit md:w-[530px] lg:block hidden">
-         <motion.h1
+          <motion.h1
             className="font-bold text-gray-900 mb-8 text-6xl"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -121,7 +121,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            >
+          >
             Starbucks offers a diverse menu, including espresso, coffee, tea,
             bakery items, breakfast, and lunch options. In addition to their
             specialty coffee drinks, they also provide a selection of snacks and
