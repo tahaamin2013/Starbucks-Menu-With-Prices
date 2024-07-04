@@ -6,7 +6,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/src/components/ui/carousel";
+} from "@/src/components/ui/carouselformobile";
 import { Menu } from "@/lib/menuItems";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -43,7 +43,7 @@ const MobileHerosection = () => {
   }, []); // Empty dependency array means this will only run once when the component mounts
 
   return (
-    <div className="md:hidden flex px-14">
+    <div className="md:hidden flex items-center justify-center">
       <Carousel className="max-w-full">
         <CarouselContent>
           {allProducts.map((product, index) => {
@@ -62,19 +62,23 @@ const MobileHerosection = () => {
                   width={400}
                   height={400}
                 />
-                <h1 className="font-bold text-2xl mt-1">{product.name}</h1>
-                <p className="text-base">{product.description}</p>
-                <Link href={`/articles/${link}`} className="w-full">
-                  <Button className="text-white rounded-full w-full duration-500 transition-all">
-                    View Product
-                  </Button>
-                </Link>
-                <Goy
-                  id="Menu"
-                  classname="bg-primary text-white w-full rounded-full text-sm py-2"
-                >
-                  View Full Menu
-                </Goy>
+                <div className='flex flex-col gap-5 justify-between w-full items-center px-10'>
+                  <h1 className="font-bold text-2xl mt-1">{product.name}</h1>
+                  <p className="text-base px-10">{product.description}</p>
+                  <div className='w-full flex flex-col gap-2'>
+                  <Link href={`/articles/${link}`} className="w-full">
+                    <Button className="text-white rounded-full w-full duration-500 transition-all">
+                      View Price & Calories
+                    </Button>
+                  </Link>
+                  <Goy
+                    id="Menu"
+                    classname="bg-primary text-white w-full rounded-full text-sm py-2"
+                    >
+                    View Full Menu
+                  </Goy>
+                </div>
+                    </div>
               </CarouselItem>
             );
           })}
