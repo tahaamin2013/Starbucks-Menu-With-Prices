@@ -864,7 +864,7 @@ export const Menu: Category[] = [
       {
         name: "Cold Coffees",
         image: "/Vanilla Sweet Cream Cold Brew.avif",
-        link: "cold-cofees",
+        link: "cold-coffees",
         subItems: [
           {
             category: "Cold Brews",
