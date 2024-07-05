@@ -87,7 +87,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
             aria-label={`Starbucks ${subItem.name}`}
           >
             {" "}
-            <h4 className="text-xl mb-1 w-full md:w-[260px]">{subItem.name}</h4>
+            <h3 className="text-xl mb-1 w-full md:w-[260px]">{subItem.name}</h3>
           </Link>
           <div className="w-44 flex gap-6 justify-between items-center">
             <Link

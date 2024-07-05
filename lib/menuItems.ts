@@ -1857,40 +1857,6 @@ export const Menu: Category[] = [
                 link: "frozen-strawberry-açaí-lemonade-starbucks-refreshers-beverage",
               },
 
-              //DS
-              {
-                name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
-                description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                image:
-                  "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
-                sizes: [
-                  {
-                    size: "Tall",
-                    price: "$5.75",
-                    calories: 200,
-                    size2: "12 fl oz",
-                  },
-                  {
-                    size: "Grande",
-                    price: "$6.25",
-                    calories: 200,
-                    size2: "16 fl oz",
-                  },
-                  {
-                    size: "Venti",
-                    price: "$6.45",
-                    calories: 200,
-                    size2: "20 fl oz",
-                  },
-                  {
-                    size: "Trenta",
-                    price: "$6.75",
-                    calories: 200,
-                    size2: "30 fl oz",
-                  },
-                ],
-                link: "frozen-mango dragonfruit-lemonade-starbucks-refreshers-beverage",
-              },
             ],
           },
 

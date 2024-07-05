@@ -78,7 +78,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h4 className="text-lg text-gray-900 font-medium mb-4">Menus</h4>
+              <h1 className="text-lg text-gray-900 font-medium mb-4">Menus</h1>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
@@ -101,7 +101,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h4 className="text-lg text-gray-900 font-medium mb-4">Drinks</h4>
+              <h2 className="text-lg text-gray-900 font-medium mb-4">Drinks</h2>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
@@ -178,7 +178,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h4 className="text-lg text-gray-900 font-medium mb-4">Foods</h4>
+              <h2 className="text-lg text-gray-900 font-medium mb-4">Foods</h2>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
@@ -228,9 +228,9 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h4 className="text-lg text-gray-900 font-medium mb-4">
+              <h2 className="text-lg text-gray-900 font-medium mb-4">
                 At Home Coffee
-              </h4>
+              </h2>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link

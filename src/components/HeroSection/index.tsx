@@ -251,7 +251,7 @@ const HeroSection = () => {
                         width={100}
                         height={100}
                       />
-                      <h2>{product.name}</h2>
+                      <span>{product.name}</span>
                     </button>
                   </div>
                 );

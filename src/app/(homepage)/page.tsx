@@ -146,7 +146,7 @@ const MenuPage = () => {
         </div>
       ) : (
         <div id="Menu" className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
-          <h2 className="font-bold text-2xl mb-2">Menu ({totalCount})</h2>
+          <h1 className="font-bold text-2xl mb-2">Menu ({totalCount})</h1>
             <div className="mb-5 relative">
             <Input
               type="text"
@@ -206,9 +206,9 @@ const MenuPage = () => {
                 category.subItems.length > 0 &&
                 category.subItems.map((subItem: any, subIdx: any) => (
                   <div key={subIdx} className="grid-cols-1">
-                    <h3 className="text-xl border-b pb-1 font-bold mt-4 mb-2">
+                    <h2 className="text-xl border-b pb-1 font-bold mt-4 mb-2">
                       {subItem.category}
-                    </h3>
+                    </h2>
                     <div className="grid  grid-cols-1 md:grid-cols-2">
                       {subItem.products.map((product: any, prodIdx: any) => (
                         <ProductLayout
