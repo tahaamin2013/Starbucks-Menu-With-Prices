@@ -63,7 +63,7 @@ const MobileHerosection = () => {
                   height={400}
                 />
                 <div className='flex flex-col gap-5 justify-between w-full items-center px-10'>
-                  <h1 className="font-bold text-2xl mt-1">{product.name}</h1>
+                  <span className="font-bold text-2xl mt-1">{product.name}</span>
                   <p className="text-base px-10">{product.description}</p>
                   <div className='w-full flex flex-col gap-2'>
                   <Link href={`/articles/${link}`} className="w-full">
