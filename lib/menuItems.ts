@@ -4710,7 +4710,7 @@ export const Menu: Category[] = [
             category: "Medium Roast",
             products: [
               {
-                name: "Starbucks Siren's Blend",
+                name: "Starbucks Sirens Blend",
                 description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 image: "/Starbucks Siren’s Blend™.avif",
                 size: "1lb",

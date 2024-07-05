@@ -29,7 +29,7 @@ function convertNameToLink(name: any) {
     .replace(/&/g, "and") // Replace & with and
     .replace(/[®™,.\s]+/g, "-") // Replace ®, ™, comma, dot, and spaces with hyphen
     .replace(/-+/g, "-") // Replace multiple hyphens with a single hyphen
-    .replace(/^-+|-+$'/g, ""); // Remove leading and trailing hyphens
+    .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
 }
 
 const ProductLayout = ({ subItem, delay }: any) => {
