@@ -48,7 +48,7 @@ const CategoryLayout = ({ item, delay, key }: any) => {
             className="rounded-full"
           />
           <div>
-            <h3 className="text-xl w-full">{item.name}</h3>
+            <h4 className="text-xl w-full">{item.name}</h4>
             </div>
         </motion.div>
       </motion.div>
