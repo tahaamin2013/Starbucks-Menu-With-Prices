@@ -147,7 +147,7 @@ const MenuPage = () => {
         </div>
       ) : (
         <div id="Menu" className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
-          <h4 className="font-bold text-2xl mb-2">Menu ({totalCount})</h4>
+          <h2 className="font-bold text-2xl mb-2">Menu ({totalCount})</h2>
             <div className="mb-5 relative">
             <Input
               type="text"
@@ -192,9 +192,9 @@ const MenuPage = () => {
       ) : (
         filteredMenu.map((category: any) => (
           <div key={category.category}>
-            <h2 className="text-2xl font-bold mt-7 mb-3">
+            <h3 className="text-2xl font-bold mt-7 mb-3">
               {category.category} ({category.items.length})
-            </h2>
+            </h3>
             <div className="grid grid-cols-1">
               <div className="grid grid-cols-1 border-t md:grid-cols-2 gap-x-[50px] w-full pt-6 gap-y-[50px]">
                 {category.items &&
