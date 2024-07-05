@@ -146,7 +146,7 @@ const MenuPage = () => {
         </div>
       ) : (
         <div id="Menu" className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
-          <h1 className="font-bold text-2xl mb-2">Menu ({totalCount})</h1>
+          <span className="font-bold text-2xl mb-2">Menu ({totalCount})</span>
             <div className="mb-5 relative">
             <Input
               type="text"

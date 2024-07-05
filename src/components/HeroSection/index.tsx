@@ -135,13 +135,13 @@ const HeroSection = () => {
       <MobileHerosection />
       <div className="md:flex hidden pb-[50px] border-b flex-col md:flex-row py-[40px] md:pl-[90px] xl:pl-[40px] sm:px-0 justify-between items-center">
         <div className="w-fit md:w-[530px] lg:block hidden">
-          <motion.h1
+          <motion.span
             className="font-bold text-gray-900 mb-8 text-6xl"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
           >
             Starbucks Menu With Prices 2024
-          </motion.h1>
+          </motion.span>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
