@@ -180,13 +180,13 @@ const HeroSection = () => {
             />
           </motion.div>
           <div className="mt-2 flex w-full items-center justify-center flex-col">
-            <motion.h2
+            <motion.h4
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               className="font-bold max-w-xs text-gray-900 mb-3 text-2xl line-clamp-2 h-[60px]"
             >
               {selectedProduct.name}
-            </motion.h2>
+            </motion.h4>
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
