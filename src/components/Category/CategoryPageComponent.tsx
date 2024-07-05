@@ -13,7 +13,6 @@ import { Slash, Search, X } from "lucide-react";
 import CategoryLayout from "@/src/components/StarbucksProduct/CategoryLayout";
 import { Input } from "../ui/input";
 import ProductLayout from "../StarbucksProduct/ProductLayout";
-import Loader from "../Loader";
 import { Skeleton } from "@/src/components/ui/skeleton";
 
 const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
