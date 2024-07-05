@@ -97,15 +97,15 @@ const ProductLayout = ({ subItem, delay }: any) => {
               <div className="h-full gap-1 font-bold flex justify-between flex-col">
                 {hasSizes && (
                   <>
-                    <h1>Size:</h1>
-                    <h1 className="text-white">.</h1>
+                    <span>Size:</span>
+                    <span className="text-white">.</span>
                   </>
                 )}
-                {(hasSize || subItem.size !== undefined) && <h1>Size:</h1>}
+                {(hasSize || subItem.size !== undefined) && <span>Size:</span>}
                 {(hasSizes || subItem.calories !== undefined) && (
-                  <h1>Calories:</h1>
+                  <span>Calories:</span>
                 )}
-                {(hasSizes || subItem.price !== undefined) && <h1>Price:</h1>}
+                {(hasSizes || subItem.price !== undefined) && <span>Price:</span>}
               </div>
             </Link>
             <div className="flex flex-col gap-1">

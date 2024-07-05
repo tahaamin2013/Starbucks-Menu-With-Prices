@@ -6,7 +6,6 @@ import { Search, X } from "lucide-react";
 import CategoryLayout from "../../components/StarbucksProduct/CategoryLayout";
 import { Input } from "@/src/components/ui/input";
 import ProductLayout from "../../components/StarbucksProduct/ProductLayout";
-import Loader from "@/src/components/Loader";
 import { Skeleton } from "@/src/components/ui/skeleton";
 
 const MenuPage = () => {
