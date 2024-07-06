@@ -78,7 +78,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h1 className="text-lg text-gray-900 font-medium mb-4">Menus</h1>
+              <span className="text-lg text-gray-900 font-medium mb-4">Menus</span>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
