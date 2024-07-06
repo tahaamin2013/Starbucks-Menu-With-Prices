@@ -7,7 +7,6 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const blog = allBlogs.find(
     (blog: any) => blog._raw.flattenedPath === parmy.slug
   );
-  
   if (!blog) {
     return <div>Blog not found</div>;
   }
