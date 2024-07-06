@@ -101,7 +101,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h2 className="text-lg text-gray-900 font-medium mb-4">Drinks</h2>
+              <span className="text-lg text-gray-900 font-medium mb-4">Drinks</span>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
@@ -178,7 +178,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h2 className="text-lg text-gray-900 font-medium mb-4">Foods</h2>
+              <span className="text-lg text-gray-900 font-medium mb-4">Foods</span>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
@@ -228,9 +228,9 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h2 className="text-lg text-gray-900 font-medium mb-4">
+              <span className="text-lg text-gray-900 font-medium mb-4">
                 At Home Coffee
-              </h2>
+              </span>
               <ul className="text-sm transition-all duration-500">
                 <li className="mb-4">
                   <Link
