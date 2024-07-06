@@ -3,7 +3,6 @@ const BlogDetails = lazy(() => import("../BlogDetails"));
 const RenderMdx = lazy(() => import("../RenderMdx"));
 import { lazy } from "react";
 import Product from "../../StarbucksProduct/Product";
-  
 const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const blog = allBlogs.find(
     (blog: any) => blog._raw.flattenedPath === parmy.slug
