@@ -43,7 +43,7 @@ const MobileHerosection = () => {
   }, []); // Empty dependency array means this will only run once when the component mounts
 
   return (
-    <div className="md:hidden flex items-center justify-center mb-6">
+    <section className="md:hidden flex items-center justify-center mb-6">
       <Carousel className="max-w-full">
         <CarouselContent>
           {allProducts.map((product, index) => {
@@ -81,7 +81,7 @@ const MobileHerosection = () => {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-    </div>
+    </section>
   );
 };
 

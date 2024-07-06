@@ -21,7 +21,7 @@ const Feetured: React.FC<FeeturedProps> = ({
   borderButton,
 }) => {
   return (
-    <div className="mt-4">
+    <section className="mt-4">
       <div
         className="grid grid-cols-1 mx-3 rounded-xl overflow-x-hidden md:grid-cols-2"
         style={{ backgroundColor: bg }}
@@ -88,7 +88,7 @@ const Feetured: React.FC<FeeturedProps> = ({
           </>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

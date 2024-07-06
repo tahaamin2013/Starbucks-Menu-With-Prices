@@ -99,8 +99,9 @@ const HeroSection = () => {
   const link = convertNameToLink(selectedProduct.name);
 
   return (
-    <>
+    <section>
       <div className="lg:hidden sm:block text-center px-6 mt-8 mb-8">
+    <header>
         <motion.h1
           className="font-bold text-gray-900 mb-4 text-5xl"
           initial={{ opacity: 0, y: -20 }}
@@ -118,7 +119,7 @@ const HeroSection = () => {
           specialty coffee drinks, they also provide a selection of snacks and
           baked goods for those seeking a quick bite.
         </motion.p>
-
+        </header>
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -269,7 +270,7 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

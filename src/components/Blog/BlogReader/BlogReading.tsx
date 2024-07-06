@@ -1,19 +1,19 @@
 import { allBlogs } from "contentlayer/generated";
 const BlogDetails = lazy(() => import("../BlogDetails"));
 const RenderMdx = lazy(() => import("../RenderMdx"));
-const Butybar = lazy(() => import("./Floating Bar"));
 import { lazy } from "react";
 import Product from "../../StarbucksProduct/Product";
-
+  
 const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const blog = allBlogs.find(
     (blog: any) => blog._raw.flattenedPath === parmy.slug
   );
+  
   if (!blog) {
     return <div>Blog not found</div>;
   }
   return (
-    <div>
+    <section>
       
       <div className="mb-20 px-[30px] md:px-[140px] mt-16 flex items-center justify-center flex-col text-center">
         <div className="w-full md:w-[900px] mb-2 text-center">
@@ -35,7 +35,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
