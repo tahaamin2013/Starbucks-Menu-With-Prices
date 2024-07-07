@@ -42,7 +42,6 @@ const CategoryLayout = ({ item, delay, key }: any) => {
             loading="lazy"
             decoding="async"
             src={item.image}
-            
             alt={`Starbucks ${item.name} Image`}
             width={120}
             height={120}
