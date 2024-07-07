@@ -59,6 +59,7 @@ const MobileHerosection = () => {
                   className="rounded-full w-[12rem]"
                   src={product.image}
                   alt={product.name}
+                  loading="lazy"
                   width={400}
                   height={400}
                 />

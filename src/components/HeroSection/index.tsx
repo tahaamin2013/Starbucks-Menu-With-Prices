@@ -10,6 +10,7 @@ import { Button } from "../ui/button";
 import MobileHerosection from "./MobileHerosection";
 import Link from "next/link";
 import GoyButtonforHeroSection from "../GoyButtonforHeroSection";
+import Goy from "../goy";
 
 function shuffleArray(array: any[]) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -35,8 +36,8 @@ const HeroSection = () => {
         item.subItems.flatMap((subItem) => subItem.products)
       )
     );
-    return shuffleArray([...products]);
-  }, []);
+    return shuffleArray([...products]); // Create a shuffled copy of the products array
+  }, []); // Empty dependency array means this will only run once when the component mounts
 
   const scrollTo = useCallback(
     (index: number) => {
@@ -100,26 +101,26 @@ const HeroSection = () => {
   return (
     <section>
       <div className="lg:hidden sm:block text-center px-6 mt-8 mb-8">
-        <header>
-          <motion.h1
-            className="font-bold text-gray-900 mb-4 text-5xl"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.1 }} // Adjust the duration to make it faster
-          >
-            Starbucks Menu With Prices 2024
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.1 }} // Adjust the duration to make it faster
-          >
-            Starbucks offers a diverse menu, including espresso, coffee, tea,
-            bakery items, breakfast, and lunch options. In addition to their
-            specialty coffee drinks, they also provide a selection of snacks and
-            baked goods for those seeking a quick bite.
-          </motion.p>
-        </header>
+    <header>
+      <motion.h1
+        className="font-bold text-gray-900 mb-4 text-5xl"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.1 }} // Adjust the duration to make it faster
+      >
+        Starbucks Menu With Prices 2024
+      </motion.h1>
+      <motion.p
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.1 }} // Adjust the duration to make it faster
+      >
+        Starbucks offers a diverse menu, including espresso, coffee, tea,
+        bakery items, breakfast, and lunch options. In addition to their
+        specialty coffee drinks, they also provide a selection of snacks and
+        baked goods for those seeking a quick bite.
+      </motion.p>
+    </header> 
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -146,7 +147,7 @@ const HeroSection = () => {
           <motion.p
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.1 }} // Adjust the duration to make it faster
+            transition={{ delay: 0.1 }}
           >
             Starbucks offers a diverse menu, including espresso, coffee, tea,
             bakery items, breakfast, and lunch options. In addition to their
@@ -156,7 +157,6 @@ const HeroSection = () => {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.1 }} // Adjust the duration to make it faster
           >
             <GoyButtonforHeroSection
               id="Menu"
@@ -172,7 +172,6 @@ const HeroSection = () => {
             className="ml-0 md:mt-0 mt-5 md:ml-6"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.1 }} // Adjust the duration to make it faster
           >
             <Image
               className="rounded-full max-w-[280px] shadow-glow shadow-primary"
@@ -180,7 +179,7 @@ const HeroSection = () => {
               alt={`${selectedProduct.name} Image`}
               width={425}
               height={425}
-              priority
+              loading="lazy"
             />
           </motion.div>
           <div className="mt-2 flex w-full items-center justify-center flex-col">
@@ -188,14 +187,12 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               className="font-bold max-w-xs text-gray-900 mb-3 text-2xl line-clamp-2 h-[60px]"
-              transition={{ duration: 0.1 }} // Adjust the duration to make it faster
             >
               {selectedProduct.name}
             </motion.span>
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.1 }} // Adjust the duration to make it faster
               className="flex flex-col gap-2"
             >
               <Link href={`/articles/${link}`}>
@@ -254,9 +251,9 @@ const HeroSection = () => {
                         className="rounded-full"
                         src={product.image}
                         alt={product.name}
+                        loading="lazy"
                         width={100}
                         height={100}
-                        priority
                       />
                       <span>{product.name}</span>
                     </button>
