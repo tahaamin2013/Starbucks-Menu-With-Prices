@@ -179,6 +179,7 @@ const HeroSection = () => {
               alt={`${selectedProduct.name} Image`}
               width={425}
               height={425}
+              priority
             />
           </motion.div>
           <div className="mt-2 flex w-full items-center justify-center flex-col">
