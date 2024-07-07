@@ -49,7 +49,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const categoryUrl = toUrlFriendly(category);
 
   return (
-    <section >
+    <section>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -69,19 +69,19 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <div className="mb-20 px-[30px] md:px-[140px] mt-[20px] flex items-center justify-center flex-col text-center">
+      <div className="mb-20 px-0 md:px-[80px] mt-[20px] flex items-center justify-center flex-col text-center">
         <div className="w-full md:w-[900px] mb-2 text-center">
           <h1 className="capitalize sm:text-3xl md:text-4xl lg:text-5xl text-3xl font-bold ">
             {blog.title}
           </h1>
           <BlogDetails blog={blogy} slug={parmy.slug} />
         </div>
-        <div className="flex gap-1 mx-7 md:gap-7 text-left">
+        <div className="flex gap-1 mx-1 md:gap-7 text-left">
           <div className="flex flex-col gap-7 md:flex-row">
             <div className="flex flex-col gap-2">
               <Product productName={blog.ProductName} />
             </div>
-            <div className="w-full ">
+            <div className="w-full">
               <RenderMdx blog={blogy} />
             </div>
           </div>
