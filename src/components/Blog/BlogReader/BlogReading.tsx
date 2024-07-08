@@ -14,6 +14,7 @@ import { lazy } from "react";
 import Product from "../../StarbucksProduct/Product";
 import { Menu } from "@/lib/menuItems";
 import Link from "next/link";
+import ProfileSection from "../../ProfileSection";
 
 const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const blog = allBlogs.find(
@@ -72,25 +73,27 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
       </Breadcrumb>
       <div className="mb-20  mt-[20px] flex items-center justify-center flex-col text-center">
         <div className="w-full lg:w-[1000px] mb-2 text-center">
+          <p className="mx-3 text-slate-400 font-bold">#{blogy.tags[0]}</p>
           <h1 className="capitalize sm:text-3xl md:text-4xl lg:text-5xl text-3xl font-bold ">
             {blog.title}
           </h1>
           <BlogDetails blog={blogy} slug={parmy.slug} />
         </div>
-        <div className="flex gap-1 mx-1 md:gap-7 text-left">
-          <div className="flex flex-col gap-7 md:flex-row">
-            <div className="flex flex-col gap-[50px] px-3">
+        <div className="flex gap-1 mx-1 md:gap-3 text-left">
+          <div className="flex flex-col gap-2 md:flex-row">
+            <div className="flex flex-col gap-[30px] px-3">
               <Product productName={blog.ProductName} />
-             {/* Ads Section */}
-             <div id="ads-section"className="hidden md:flex flex-col  gap-[100px]">
-             <Link href="/add-page" className="bg-blue-600 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
-             <Link href="/add-page" className="bg-blue-600 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
-             </div>
-             </div>
+              {/* Ads Section */}
+              <div
+                id="ads-section"
+                className="hidden md:flex flex-col  gap-[100px]"
+              >
+                <ProfileSection />
+              </div>
+            </div>
             <div className="w-full">
               <RenderMdx blog={blogy} />
-              <Link href="/add-page" className="bg-blue-600 md:hidden text-white mt-9 w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
-
+    
             </div>
           </div>
         </div>
