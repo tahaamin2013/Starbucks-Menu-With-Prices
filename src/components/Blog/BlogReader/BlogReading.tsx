@@ -13,6 +13,7 @@ import { Slash } from "lucide-react";
 import { lazy } from "react";
 import Product from "../../StarbucksProduct/Product";
 import { Menu } from "@/lib/menuItems";
+import Link from "next/link";
 
 const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const blog = allBlogs.find(
@@ -78,11 +79,18 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
         </div>
         <div className="flex gap-1 mx-1 md:gap-7 text-left">
           <div className="flex flex-col gap-7 md:flex-row">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-[50px] px-3">
               <Product productName={blog.ProductName} />
-            </div>
+             {/* Ads Section */}
+             <div id="ads-section"className="hidden md:flex flex-col  gap-[100px]">
+             <Link href="/add-page" className="bg-blue-900 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+             <Link href="/add-page" className="bg-blue-900 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+             </div>
+             </div>
             <div className="w-full">
               <RenderMdx blog={blogy} />
+              <Link href="/add-page" className="bg-blue-900 text-white mt-9 w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+
             </div>
           </div>
         </div>
