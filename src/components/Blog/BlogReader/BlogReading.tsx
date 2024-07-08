@@ -70,8 +70,8 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <div className="mb-20 px-0 md:px-[80px] mt-[20px] flex items-center justify-center flex-col text-center">
-        <div className="w-full md:w-[900px] mb-2 text-center">
+      <div className="mb-20 mt-[20px] flex items-center justify-center flex-col text-center">
+        <div className="w-full lg:w-[1000px] mb-2 text-center">
           <h1 className="capitalize sm:text-3xl md:text-4xl lg:text-5xl text-3xl font-bold ">
             {blog.title}
           </h1>
@@ -89,7 +89,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
              </div>
             <div className="w-full">
               <RenderMdx blog={blogy} />
-              <Link href="/add-page" className="bg-blue-900 text-white mt-9 w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+              <Link href="/add-page" className="bg-blue-900 md:hidden text-white mt-9 w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
 
             </div>
           </div>
