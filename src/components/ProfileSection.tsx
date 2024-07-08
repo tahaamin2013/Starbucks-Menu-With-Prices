@@ -20,7 +20,7 @@ const ProfileSection = () => {
           </div>
           <div className="px-6 mt-16">
             <h1 className="font-bold text-3xl  mb-1">Amin Ahsan</h1>
-            <p className="text-sm  text-slate-800 font-bold">Content Writer</p>
+            <p className="text-sm  text-slate-800 font-bold">Author</p>
             <p className="text-sm text-justify text-gray-600  pt-3 font-normal">
               Amin Ahsan is a professional accountant and SEO expert with a
               growing passion for writing. With a strong background in finance
