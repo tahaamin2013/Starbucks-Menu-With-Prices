@@ -15,6 +15,7 @@ import {
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import { ChevronsDown } from "lucide-react";
+import { Menu } from "@/lib/menuItems";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -40,6 +41,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
 
   const hasSize = subItem.size;
   const hasSizes = subItem.sizes && subItem.sizes.length > 0;
+  const productName = subItem.name;
 
   const initialSize = hasSizes
     ? subItem.sizes.find((sizeOption: any) => sizeOption.size === "Tall") ||
@@ -47,9 +49,38 @@ const ProductLayout = ({ subItem, delay }: any) => {
     : null;
 
   const [selectedSize, setSelectedSize] = useState(initialSize);
-  const link = convertNameToLink(subItem.name);
+  const link = convertNameToLink(productName);
 
   console.log(link);
+
+  // Find the category of the blog
+  const findCategory = () => {
+    for (let menu of Menu) {
+      for (let item of menu.items) {
+        for (let subItem of item.subItems) {
+          for (let product of subItem.products) {
+            if (product.name === productName) {
+              return item.name; // Return the item name (sub-category name)
+            }
+          }
+        }
+      }
+    }
+    return "Unknown Category"; // Default if category not found
+  };
+
+  const category = findCategory();
+
+  const toUrlFriendly = (name: string) => {
+    return name
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace("®", "")
+      .replace(",", "")
+      .replace("&", "and");
+  };
+
+  const categoryUrl = toUrlFriendly(category);
 
   return (
     <motion.div
@@ -68,14 +99,14 @@ const ProductLayout = ({ subItem, delay }: any) => {
         className="flex flex-row mb-6 items-center gap-5"
       >
         <Link
-          href={`/articles/${link}`}
-          aria-label={`Starbucks ${subItem.name}`}
+          href={`/${categoryUrl}/${link}`}
+          aria-label={`Starbucks ${productName}`}
         >
           <Image
             src={subItem.image}
             loading="lazy"
             decoding="async"
-            alt={`Starbucks menu with prices featuring a ${subItem.name}`}
+            alt={`Starbucks menu with prices featuring a ${productName}`}
             width={130}
             height={140}
             className="rounded-full max-w-[140rem] max-h-[130px]"
@@ -83,16 +114,16 @@ const ProductLayout = ({ subItem, delay }: any) => {
         </Link>
         <div>
           <Link
-            href={`/articles/${link}`}
-            aria-label={`Starbucks ${subItem.name}`}
+            href={`/${categoryUrl}/${link}`}
+            aria-label={`Starbucks ${productName}`}
           >
             {" "}
-            <h3 className="text-xl mb-1 w-full md:w-[260px]">{subItem.name}</h3>
+            <h3 className="text-xl mb-1 w-full md:w-[260px]">{productName}</h3>
           </Link>
           <div className="w-44 flex gap-6 justify-between items-center">
             <Link
-              href={`/articles/${link}`}
-              aria-label={`Starbucks ${subItem.name}`}
+              href={`/${categoryUrl}/${link}`}
+              aria-label={`Starbucks ${productName}`}
             >
               <div className="h-full gap-1 font-bold flex justify-between flex-col">
                 {hasSizes && (
@@ -105,7 +136,9 @@ const ProductLayout = ({ subItem, delay }: any) => {
                 {(hasSizes || subItem.calories !== undefined) && (
                   <span>Calories:</span>
                 )}
-                {(hasSizes || subItem.price !== undefined) && <span>Price:</span>}
+                {(hasSizes || subItem.price !== undefined) && (
+                  <span>Price:</span>
+                )}
               </div>
             </Link>
             <div className="flex flex-col gap-1">
@@ -145,8 +178,8 @@ const ProductLayout = ({ subItem, delay }: any) => {
               ) : null}
               {hasSizes && selectedSize ? (
                 <Link
-                  href={`/articles/${link}`}
-                  aria-label={`Starbucks ${subItem.name}`}
+                  href={`/${categoryUrl}/${link}`}
+                  aria-label={`Starbucks ${productName}`}
                 >
                   <span>{selectedSize.size2}</span>
                   <p>{selectedSize.calories}</p>
@@ -154,8 +187,8 @@ const ProductLayout = ({ subItem, delay }: any) => {
                 </Link>
               ) : (
                 <Link
-                  href={`/articles/${link}`}
-                  aria-label={`Starbucks ${subItem.name}`}
+                  href={`/${categoryUrl}/${link}`}
+                  aria-label={`Starbucks ${productName}`}
                 >
                   {subItem.calories !== undefined && <p>{subItem.calories}</p>}
                   {subItem.size !== undefined && <p>{subItem.size}</p>}

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-// import "../../../../src/app/global.css";
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/footer";
-import siteMetadata from "../../../utils/siteMetaData";
-import SubMenu from "../../../components/subMenu";
+import "../globals.css";
+import Navbar from "@/src/components/Navbar";
+import SubMenu from "@/src/components/subMenu";
+import Footer from "@/src/components/footer";
+import Sidebar from "@/src/components/sidebar";
+import siteMetadata from "@/src/utils/siteMetaData";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,9 +31,9 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Navbar />
-        <SubMenu />
         <main>
-          <div className="flex px-5 md:px-[90px] my-9">
+          <SubMenu />
+          <div className="flex px-5 md:px-[60px] my-9">
             <div className="w-full">{children}</div>
           </div>
         </main>
