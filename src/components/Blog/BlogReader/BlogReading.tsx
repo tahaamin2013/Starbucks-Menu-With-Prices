@@ -70,7 +70,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <div className="mb-20 mt-[20px] flex items-center justify-center flex-col text-center">
+      <div className="mb-20  mt-[20px] flex items-center justify-center flex-col text-center">
         <div className="w-full lg:w-[1000px] mb-2 text-center">
           <h1 className="capitalize sm:text-3xl md:text-4xl lg:text-5xl text-3xl font-bold ">
             {blog.title}
