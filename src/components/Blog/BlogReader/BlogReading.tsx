@@ -83,13 +83,13 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
               <Product productName={blog.ProductName} />
              {/* Ads Section */}
              <div id="ads-section"className="hidden md:flex flex-col  gap-[100px]">
-             <Link href="/add-page" className="bg-blue-900 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
-             <Link href="/add-page" className="bg-blue-900 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+             <Link href="/add-page" className="bg-blue-600 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+             <Link href="/add-page" className="bg-blue-600 text-white w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
              </div>
              </div>
             <div className="w-full">
               <RenderMdx blog={blogy} />
-              <Link href="/add-page" className="bg-blue-900 md:hidden text-white mt-9 w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
+              <Link href="/add-page" className="bg-blue-600 md:hidden text-white mt-9 w-[240px] justify-center text-center flex items-center font-bold text-3xl h-[400px]">Ads Space <br /> 	240x400</Link>
 
             </div>
           </div>
