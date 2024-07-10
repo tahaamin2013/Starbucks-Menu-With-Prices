@@ -84,15 +84,13 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
       <div className="mb-20 mt-[20px] flex items-center justify-center flex-col text-center">
         <div className="w-full lg:w-[1000px] mb-2 text-center">
           <div className="mx-3 mb-2 flex w-full justify-center items-center flex-col  text-slate-400 font-bold">
-            <div  className="flex flex-wrap justify-center items-center gap-x-5">
+            <div className="flex flex-wrap justify-center items-center gap-x-5 max-w-3xl">
               {displayedTags.map((tag: string, index: number) => (
-                <span key={index}>
-                  #{tag}{" "}
-                </span>
+                <span key={index}>#{tag} </span>
               ))}
             </div>
             {blogy.tags.length > 3 && (
-              <button onClick={toggleShowMore} className="text-blue-500 ml-2">
+              <button onClick={toggleShowMore} className="text-primary ml-2">
                 {showMore ? "Show Less" : "Show More"}
               </button>
             )}
