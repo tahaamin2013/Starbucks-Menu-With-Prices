@@ -36,8 +36,8 @@ const HeroSection = () => {
         item.subItems.flatMap((subItem) => subItem.products)
       )
     );
-    return shuffleArray([...products]); // Create a shuffled copy of the products array
-  }, []); // Empty dependency array means this will only run once when the component mounts
+    return shuffleArray([...products]);
+  }, []);
 
   const scrollTo = useCallback(
     (index: number) => {
@@ -99,21 +99,22 @@ const HeroSection = () => {
   const link = convertNameToLink(selectedProduct.name);
 
   return (
-    <section className="">
-      <div className="lg:hidden sm:block text-center px-6 my-8">
+    <section className="w-full">
+      <div className="lg:hidden sm:block text-center px-4 sm:px-6 my-8">
         <header>
           <motion.h1
-            className="font-bold text-gray-900 mb-4 text-5xl"
+            className="font-bold text-gray-900 mb-4 text-3xl sm:text-4xl md:text-5xl"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.1 }} // Adjust the duration to make it faster
+            transition={{ duration: 0.1 }}
           >
             Starbucks Menu With Prices 2024
           </motion.h1>
           <motion.p
+            className="text-sm sm:text-base"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.1 }} // Adjust the duration to make it faster
+            transition={{ delay: 0.1, duration: 0.1 }}
           >
             Starbucks offers a diverse menu, including espresso, coffee, tea,
             bakery items, breakfast, and lunch options. In addition to their
@@ -135,18 +136,20 @@ const HeroSection = () => {
         </motion.div>
       </div>
       <MobileHerosection />
-      <div className="md:flex hidden pb-[50px] border-b flex-col md:flex-row py-[40px] justify-between items-center">
-        <div className="md:pl-[90px] xl:pl-[40px] pr-12 bg-emerald-400 lg:block hidden">
-          <div className="md:w-[530px]">
+
+      <div className="lg:flex hidden pb-[50px] border-b flex-col md:flex-row justify-between items-stretch px-0 overflow-x-hidden">
+       
+      <div className="py-[60px] xl:w-1/2 md:pl-[5%] lg:pl-[30px] xl:pl-[40px] bg-[#C0E8A6] lg:flex hidden items-center justify-start">
+          <div className="md:max-w-[530px] items-start justify-center flex flex-col text-left">
             <motion.span
-              className="font-bold text-6xl"
+              className="font-bold text-4xl lg:text-5xl xl:text-6xl"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
             >
               Starbucks Menu With Prices 2024
             </motion.span>
             <motion.p
-              className="mt-8"
+              className="mt-4 lg:mt-8 text-sm lg:text-base"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
@@ -162,7 +165,7 @@ const HeroSection = () => {
             >
               <GoyButtonforHeroSection
                 id="Menu"
-                classname="bg-transparent border-4 text-primary border-primary w-[11rem] rounded-full duration-500 transition-all mt-8"
+                classname="bg-transparent border-4 text-primary border-primary w-full sm:w-[11rem] rounded-full duration-500 transition-all mt-4 lg:mt-8"
               >
                 View Full Menu
               </GoyButtonforHeroSection>
@@ -170,7 +173,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex bg-blue-300 w-full justify-end">
+        <div className="flex bg-gradient-to-r to-[#EDF1E7] from-[#C2EAAA] xl:w-1/2 py-[40px]">
           <div className="text-center flex flex-col items-center justify-center gap-3">
             <motion.div
               className="ml-0 md:mt-0 mt-5 md:ml-6"
@@ -179,7 +182,7 @@ const HeroSection = () => {
             >
               <Link href={`/articles/${link}`}>
                 <Image
-                  className="rounded-full max-w-[280px] shadow-glow shadow-primary"
+                  className="rounded-full max-w-[200px] md:max-w-[280px] shadow-glow shadow-primary"
                   src={selectedProduct.image}
                   alt={`${selectedProduct.name} Image`}
                   width={425}
@@ -193,7 +196,7 @@ const HeroSection = () => {
                 <motion.span
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="font-bold max-w-xs mb-3 text-2xl line-clamp-2 h-[60px]"
+                  className="font-bold max-w-xs mb-3 text-xl lg:text-2xl line-clamp-2 h-[60px]"
                 >
                   {selectedProduct.name}
                 </motion.span>
@@ -204,7 +207,7 @@ const HeroSection = () => {
                 className="flex flex-col gap-2"
               >
                 <Link href={`/articles/${link}`}>
-                  <Button className="text-white rounded-full duration-500 transition-all">
+                  <Button className="text-white rounded-full duration-500 transition-all text-sm lg:text-base">
                     View Price & Calories
                   </Button>
                 </Link>
@@ -220,22 +223,22 @@ const HeroSection = () => {
               } rounded-full`}
               disabled={!canScrollPrev}
             >
-              <ArrowRight className="h-8 text-white w-8 p-2 -rotate-90" />
+              <ArrowRight className="h-6 lg:h-8 text-white w-6 lg:w-8 p-1 lg:p-2 -rotate-90" />
             </button>
 
             <div
-              className="w-full ml-6 mt-5 max-w-sm overflow-hidden"
+              className="w-full ml-2 lg:ml-6 mt-5 max-w-[240px] lg:max-w-sm overflow-hidden"
               ref={emblaRef}
             >
-              <div className="-mt-1 h-[370px]">
+              <div className="-mt-1 h-[300px] lg:h-[370px]">
                 {allProducts.map((product, index) => {
                   let marginLeftClass = "";
                   switch (index % 3) {
                     case 0:
-                      marginLeftClass = "pl-[40px]";
+                      marginLeftClass = "pl-[20px] lg:pl-[40px]";
                       break;
                     case 1:
-                      marginLeftClass = "pl-[80px]";
+                      marginLeftClass = "pl-[40px] lg:pl-[80px]";
                       break;
                     case 2:
                       marginLeftClass = "";
@@ -253,17 +256,17 @@ const HeroSection = () => {
                           product === selectedProduct
                             ? "bg-primary text-white"
                             : "bg-white"
-                        } w-full text-left text-xl shadow-lg flex gap-3 rounded-r items-center rounded-full px-4 py-2`}
+                        } w-full text-left text-sm lg:text-xl shadow-lg flex gap-2 lg:gap-3 rounded-r items-center rounded-full px-2 lg:px-4 py-1 lg:py-2`}
                       >
                         <Image
-                          className="rounded-full"
+                          className="rounded-full w-10 h-10 lg:w-[100px] lg:h-[100px]"
                           src={product.image}
                           alt={product.name}
                           loading="lazy"
                           width={100}
                           height={100}
                         />
-                        <span>{product.name}</span>
+                        <span className="line-clamp-2">{product.name}</span>
                       </button>
                     </div>
                   );
@@ -277,11 +280,13 @@ const HeroSection = () => {
               } rounded-full`}
               disabled={!canScrollNext}
             >
-              <ArrowRight className="h-8 text-white w-8 p-2 rotate-90" />
+              <ArrowRight className="h-6 lg:h-8 text-white w-6 lg:w-8 p-1 lg:p-2 rotate-90" />
             </button>
           </div>
         </div>
+        
       </div>
+
     </section>
   );
 };

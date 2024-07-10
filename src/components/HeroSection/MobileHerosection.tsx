@@ -43,7 +43,7 @@ const MobileHerosection = () => {
   }, []); // Empty dependency array means this will only run once when the component mounts
 
   return (
-    <section className="md:hidden flex items-center justify-center mb-6">
+    <section className="lg:hidden flex items-center justify-center mb-6">
       <Carousel className="max-w-full">
         <CarouselContent>
           {allProducts.map((product, index) => {
