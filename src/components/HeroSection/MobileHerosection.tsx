@@ -43,8 +43,11 @@ const MobileHerosection = () => {
   }, []); // Empty dependency array means this will only run once when the component mounts
 
   return (
-    <section className="lg:hidden flex items-center justify-center mb-6">
-      <Carousel className="max-w-full">
+    <section className="lg:hidden overflow-hidden w-screen flex items-center justify-center mb-6">
+      <Carousel className="max-w-full overflow-hidden">
+        <div className="w-[300px] absolute -left-[13rem] -bottom-0 h-[300px] bg-orange-300 rounded-full blur-3xl" />
+        <div className="w-[400px] absolute -right-[13rem] top-[10px] h-[307px] bg-[#C0E8A6] rounded-full blur-2xl" />
+
         <CarouselContent>
           {allProducts.map((product, index) => {
             const link = convertNameToLink(product.name);
@@ -63,18 +66,19 @@ const MobileHerosection = () => {
                   width={400}
                   height={400}
                 />
-                <div className='flex flex-col gap-5 justify-between w-full items-center px-10'>
-                  <span className="font-bold text-2xl mt-1">{product.name}</span>
+                <div className="flex flex-col gap-5 justify-between w-full items-center px-10">
+                  <span className="font-bold text-2xl mt-1">
+                    {product.name}
+                  </span>
                   <p className="text-base px-10">{product.description}</p>
-                  <div className='w-full flex flex-col gap-2'>
-                  <Link href={`/articles/${link}`} className="w-full">
-                    <Button className="text-white rounded-full w-full duration-500 transition-all">
-                      View Price & Calories
-                    </Button>
-                  </Link>
-                  
+                  <div className="w-full flex flex-col gap-2">
+                    <Link href={`/articles/${link}`} className="w-full">
+                      <Button className="text-white rounded-full w-full duration-500 transition-all">
+                        View Price & Calories
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                    </div>
               </CarouselItem>
             );
           })}
