@@ -85,26 +85,20 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
       <div className="mb-20 mt-[20px] flex items-center justify-center flex-col text-center">
         <div className="w-full lg:w-[1000px] mb-2 text-center">
           <div className="mx-3 mb-2 flex w-full justify-center items-center flex-col  text-slate-400 font-bold">
-            <motion.div
+            <div
               className="flex flex-wrap justify-center items-center gap-x-5 max-w-3xl"
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3 }}
             >
               {displayedTags.map((tag: string, index: number) => (
                 <span key={index}>#{tag} </span>
               ))}
-            </motion.div>
+            </div>
             {blogy.tags.length > 3 && (
-              <motion.button
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
+              <button
                 onClick={toggleShowMore}
                 className="text-primary ml-2"
               >
                 {showMore ? "Show Less" : "Show More"}
-              </motion.button>
+              </button>
             )}
           </div>
           <h1 className="capitalize sm:text-3xl md:text-4xl lg:text-5xl text-3xl font-bold">
@@ -112,9 +106,9 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
           </h1>
           <BlogDetails blog={blogy} slug={parmy.slug} />
         </div>
-        <div className="flex gap-1 mx-1 md:gap-3 text-left">
+        <div className="flex gap-1 mx-10 md:gap-3 text-left">
           <div className="flex flex-col gap-2 md:flex-row">
-            <div className="flex flex-col gap-[30px] px-3">
+            <div className="flex  flex-col gap-[30px] px-3">
               <Product productName={blog.ProductName} />
               <motion.div
                 id="ads-section"
@@ -126,9 +120,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
                 <ProfileSection />
               </motion.div>
             </div>
-            <div className="w-full">
               <RenderMdx blog={blogy} />
-            </div>
           </div>
         </div>
       </div>
