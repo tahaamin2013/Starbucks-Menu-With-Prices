@@ -107,17 +107,6 @@ const MenuPage = () => {
       }).filter((category) => category !== null);
 
       setFilteredMenu(filteredItems);
-      // setTotalCount(
-      //   filteredItems.reduce((acc, category) => {
-      //     const itemCount = category.items?.length || 0;
-      //     const subItemCount =
-      //       category.items?.reduce(
-      //         (acc, item) => acc + (item.subItems?.length || 0),
-      //         0
-      //       ) || 0;
-      //     return acc + itemCount + subItemCount;
-      //   }, 0)
-      // );
     }
   };
 

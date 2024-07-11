@@ -100,6 +100,7 @@ const HeroSection = () => {
 
   return (
     <section className="w-full">
+     
       <div className="lg:hidden sm:block text-center px-4 sm:px-6 my-8">
         <header>
           <motion.h1
@@ -173,8 +174,8 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex bg-gradient-to-r to-[#EDF1E7] from-[#C2EAAA] xl:w-1/2 py-[40px]">
-          <div className="text-center flex flex-col items-center justify-center gap-3">
+        <div className="flex relative overflow-hidden bg-white xl:w-1/2 py-[40px]">
+          <div className="text-center z-50 flex flex-col items-center justify-center gap-3">
             <motion.div
               className="ml-0 md:mt-0 mt-5 md:ml-6"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -215,7 +216,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex z-50 flex-col items-center justify-center">
             <button
               onClick={handlePreviousSlide}
               className={`mb-2 ${
@@ -283,8 +284,9 @@ const HeroSection = () => {
               <ArrowRight className="h-6 lg:h-8 text-white w-6 lg:w-8 p-1 lg:p-2 rotate-90" />
             </button>
           </div>
+        <div className="w-72 absolute -left-[13rem] bottom-4 h-80 bg-orange-300 rounded-full blur-3xl" />
+        <div className="w-72 absolute right-20 -bottom-32 h-72 bg-[#C0E8A6] rounded-full blur-2xl" />
         </div>
-        
       </div>
 
     </section>
