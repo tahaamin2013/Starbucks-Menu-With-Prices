@@ -100,7 +100,6 @@ const HeroSection = () => {
 
   return (
     <section className="w-full">
-     
       <div className="lg:hidden sm:block text-center px-4 sm:px-6 my-8">
         <header>
           <motion.h1
@@ -139,48 +138,31 @@ const HeroSection = () => {
       <MobileHerosection />
 
       <div className="lg:flex hidden pb-[50px] border-b flex-col md:flex-row justify-between items-stretch px-0 overflow-x-hidden">
-       
-      <div className="py-[60px] xl:w-1/2 md:pl-[5%] lg:pl-[30px] xl:pl-[40px] bg-[#C0E8A6] lg:flex hidden items-center justify-start">
+        <div className="py-[60px] xl:w-1/2 md:pl-[5%] lg:pl-[30px] xl:pl-[40px] bg-[#C0E8A6] lg:flex hidden items-center justify-start">
           <div className="md:max-w-[530px] items-start justify-center flex flex-col text-left">
-            <motion.span
-              className="font-bold text-4xl lg:text-5xl xl:text-6xl"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-            >
+            <span className="font-bold text-4xl lg:text-5xl xl:text-6xl">
               Starbucks Menu With Prices 2024
-            </motion.span>
-            <motion.p
-              className="mt-4 lg:mt-8 text-sm lg:text-base"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-            >
+            </span>
+            <p className="mt-4 lg:mt-8 text-sm lg:text-base">
               Starbucks offers a diverse menu, including espresso, coffee, tea,
               bakery items, breakfast, and lunch options. In addition to their
               specialty coffee drinks, they also provide a selection of snacks
               and baked goods for those seeking a quick bite.
-            </motion.p>
-            <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-            >
+            </p>
+            <div>
               <GoyButtonforHeroSection
                 id="Menu"
                 classname="bg-transparent border-4 text-primary border-primary w-full sm:w-[11rem] rounded-full duration-500 transition-all mt-4 lg:mt-8"
               >
                 View Full Menu
               </GoyButtonforHeroSection>
-            </motion.div>
+            </div>
           </div>
         </div>
 
         <div className="flex relative overflow-hidden bg-white xl:w-1/2 py-[40px]">
           <div className="text-center z-50 flex flex-col items-center justify-center gap-3">
-            <motion.div
-              className="ml-0 md:mt-0 mt-5 md:ml-6"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-            >
+            <div className="ml-0 md:mt-0 mt-5 md:ml-6">
               <Link href={`/articles/${link}`}>
                 <Image
                   className="rounded-full max-w-[200px] md:max-w-[280px] shadow-glow shadow-primary"
@@ -191,28 +173,20 @@ const HeroSection = () => {
                   loading="lazy"
                 />
               </Link>
-            </motion.div>
+            </div>
             <div className="mt-2 flex w-full items-center justify-center flex-col">
               <Link href={`/articles/${link}`}>
-                <motion.span
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="font-bold max-w-xs mb-3 text-xl lg:text-2xl line-clamp-2 h-[60px]"
-                >
+                <span className="font-bold max-w-xs mb-3 text-xl lg:text-2xl line-clamp-2 h-[60px]">
                   {selectedProduct.name}
-                </motion.span>
+                </span>
               </Link>
-              <motion.div
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="flex flex-col gap-2"
-              >
+              <div className="flex flex-col gap-2">
                 <Link href={`/articles/${link}`}>
                   <Button className="text-white rounded-full duration-500 transition-all text-sm lg:text-base">
                     View Price & Calories
                   </Button>
                 </Link>
-              </motion.div>
+              </div>
             </div>
           </div>
 
@@ -284,11 +258,10 @@ const HeroSection = () => {
               <ArrowRight className="h-6 lg:h-8 text-white w-6 lg:w-8 p-1 lg:p-2 rotate-90" />
             </button>
           </div>
-        <div className="w-72 absolute -left-[13rem] bottom-4 h-80 bg-orange-300 rounded-full blur-3xl" />
-        <div className="w-72 absolute right-20 -bottom-32 h-72 bg-[#C0E8A6] rounded-full blur-2xl" />
+          <div className="w-72 absolute -left-[13rem] bottom-4 h-80 bg-orange-300 rounded-full blur-3xl" />
+          <div className="w-72 absolute right-20 -bottom-32 h-72 bg-[#C0E8A6] rounded-full blur-2xl" />
         </div>
       </div>
-
     </section>
   );
 };
