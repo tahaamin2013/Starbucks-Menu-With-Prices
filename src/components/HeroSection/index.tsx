@@ -127,7 +127,7 @@ const HeroSection = () => {
       <MobileHerosection />
 
       <div className="lg:flex hidden pb-[50px] border-b flex-col md:flex-row justify-between items-stretch px-0 overflow-x-hidden">
-        <div className="py-[60px] pr-[25px]  md:pl-[5%] lg:pl-[30px] xl:pl-[40px] bg-[#C0E8A6] lg:flex hidden items-center justify-start">
+        <div className="py-[60px] pl-6 pr-[25px]  md:pl-[5%] lg:pl-[30px] xl:pl-[40px] bg-[#C0E8A6] lg:flex hidden items-center justify-start">
           <div className="md:max-w-[1100px]  items-start justify-center flex flex-col text-left">
             <span className="font-bold text-4xl lg:text-5xl xl:text-6xl">
               Starbucks Menu With Prices 2024
@@ -149,7 +149,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex relative overflow-hidden bg-white  w-full  justify-between py-[40px]">
+        <div className="flex relative overflow-hidden bg-white  w-full  justify-between pl-[94px] py-[40px]">
           <div className="text-center z-50 flex flex-col items-center justify-center gap-3">
             <div className="ml-0 md:mt-0 mt-5 md:ml-6">
               <Link href={`/articles/${link}`}>
