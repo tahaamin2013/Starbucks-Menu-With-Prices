@@ -34,8 +34,8 @@ const CategoryLayout = ({ item, delay, key }: any) => {
         <div className="flex flex-row items-center gap-5">
           <Image
             loading="lazy"
-            decoding="async"
             src={item.image}
+            priority
             alt={`Starbucks ${item.name} Image`}
             width={120}
             height={120}
