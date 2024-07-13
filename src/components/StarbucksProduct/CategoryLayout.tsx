@@ -31,13 +31,7 @@ const CategoryLayout = ({ item, delay, key }: any) => {
         transition={{ duration: 0.3, delay }}
         className="flex gap-8 flex-col md:flex-row"
       >
-        <motion.div
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.3, delay }}
-          className="flex flex-row items-center gap-5"
-        >
+        <div className="flex flex-row items-center gap-5">
           <Image
             loading="lazy"
             decoding="async"
@@ -50,7 +44,7 @@ const CategoryLayout = ({ item, delay, key }: any) => {
           <div>
             <h3 className="text-xl w-full">{item.name}</h3>
           </div>
-        </motion.div>
+        </div>
       </motion.div>
     </Link>
   );
