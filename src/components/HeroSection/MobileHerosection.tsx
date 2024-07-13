@@ -77,7 +77,7 @@ const MobileHerosection = () => {
             </CarouselItem>
           );
         })}
-      </CarouselContent>
+      </CarouselContent>  
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
