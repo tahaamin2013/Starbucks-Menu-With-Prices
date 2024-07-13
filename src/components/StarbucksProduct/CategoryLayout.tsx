@@ -29,9 +29,8 @@ const CategoryLayout = ({ item, delay, key }: any) => {
         animate={inView ? "visible" : "hidden"}
         variants={variants}
         transition={{ duration: 0.3, delay }}
-        className="flex gap-8 flex-col md:flex-row"
+        className="flex flex-row items-center gap-5"
       >
-        <div className="flex flex-row items-center gap-5">
           <Image
             loading="lazy"
             src={item.image}
@@ -41,7 +40,6 @@ const CategoryLayout = ({ item, delay, key }: any) => {
             className="rounded-full"
           />
           <h3 className="text-xl w-full">{item.name}</h3>
-        </div>
       </motion.div>
     </Link>
   );
