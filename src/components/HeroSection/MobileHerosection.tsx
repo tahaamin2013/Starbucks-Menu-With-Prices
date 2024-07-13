@@ -56,14 +56,14 @@ const MobileHerosection = () => {
               key={product.link}
               className="pt-1 items-center flex gap-2 flex-col justify-center text-center"
             >
-              <Image
-                className="rounded-full w-[12rem]"
-                src={product.image}
-                alt={product.name}
-                loading="lazy"
-                width={400}
-                height={400}
-              />
+                <Image
+                  className="rounded-full w-[12rem]"
+                  src={product.image}
+                  alt={product.name}
+                  loading="lazy"
+                  width={400} 
+                  height={400}
+                />
               <div className="flex flex-col gap-5 justify-between w-full items-center px-10">
                 <span className="font-bold text-2xl mt-1">{product.name}</span>
                 <p className="text-base px-10">{product.description}</p>
