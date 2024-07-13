@@ -43,48 +43,44 @@ const MobileHerosection = () => {
   }, []); // Empty dependency array means this will only run once when the component mounts
 
   return (
-    <section className="lg:hidden overflow-hidden w-screen flex items-center justify-center mb-6">
-      <Carousel className="max-w-full overflow-hidden">
-        <div className="w-[300px] absolute -left-[13rem] -bottom-0 h-[300px] bg-orange-300 rounded-full blur-3xl" />
-        <div className="w-[400px] absolute -right-[13rem] top-[10px] h-[307px] bg-[#C0E8A6] rounded-full blur-2xl" />
+    <Carousel className="max-w-full mb-6 lg:hidden  block overflow-hidden">
+      <div className="w-[300px] absolute -left-[13rem] -bottom-0 h-[300px] bg-orange-300 rounded-full blur-3xl" />
+      <div className="w-[400px] absolute -right-[13rem] top-[10px] h-[307px] bg-[#C0E8A6] rounded-full blur-2xl" />
 
-        <CarouselContent>
-          {allProducts.map((product, index) => {
-            const link = convertNameToLink(product.name);
-            console.log(link);
-            return (
-              <CarouselItem
-                key={product.link}
-                className="pt-1 items-center flex gap-2 flex-col justify-center text-center"
-              >
-                <Image
-                  className="rounded-full w-[12rem]"
-                  src={product.image}
-                  alt={product.name}
-                  loading="lazy"
-                  width={400}
-                  height={400}
-                />
-                <div className="flex flex-col gap-5 justify-between w-full items-center px-10">
-                  <span className="font-bold text-2xl mt-1">
-                    {product.name}
-                  </span>
-                  <p className="text-base px-10">{product.description}</p>
-                  <Link
-                    href={`/articles/${link}`}
-                    className="w-full text-white rounded-full bg-primary py-3 text-lg duration-500 transition-all"
-                  >
-                    View Price & Calories
-                  </Link>
-                </div>
-              </CarouselItem>
-            );
-          })}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-    </section>
+      <CarouselContent>
+        {allProducts.map((product, index) => {
+          const link = convertNameToLink(product.name);
+          console.log(link);
+          return (
+            <CarouselItem
+              key={product.link}
+              className="pt-1 items-center flex gap-2 flex-col justify-center text-center"
+            >
+              <Image
+                className="rounded-full w-[12rem]"
+                src={product.image}
+                alt={product.name}
+                loading="lazy"
+                width={400}
+                height={400}
+              />
+              <div className="flex flex-col gap-5 justify-between w-full items-center px-10">
+                <span className="font-bold text-2xl mt-1">{product.name}</span>
+                <p className="text-base px-10">{product.description}</p>
+                <Link
+                  href={`/articles/${link}`}
+                  className="w-full text-white rounded-full bg-primary py-3 text-lg duration-500 transition-all"
+                >
+                  View Price & Calories
+                </Link>
+              </div>
+            </CarouselItem>
+          );
+        })}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
   );
 };
 
