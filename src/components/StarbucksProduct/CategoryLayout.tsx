@@ -17,28 +17,42 @@ const CategoryLayout = ({ item, delay, key }: any) => {
   });
 
   return (
-    <motion.a
-      ref={ref}
-      initial="hidden"
+    <Link
       href={item.link}
       aria-label={`Starbucks ${item.name}`}
       key={key}
-      animate={inView ? "visible" : "hidden"}
-      variants={variants}
-      transition={{ duration: 0.3, delay }}
-      className="flex gap-8 flex-col md:flex-row items-left text-left"
+      className="w-fit"
     >
-      <Image
-        loading="lazy"
-        decoding="async"
-        src={item.image}
-        alt={`Starbucks ${item.name} Image`}
-        width={120}
-        height={120}
-        className="rounded-full"
-      />
-      <h3 className="text-xl">{item.name}</h3>
-    </motion.a>
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={variants}
+        transition={{ duration: 0.3, delay }}
+        className="flex gap-8 flex-col md:flex-row"
+      >
+        <motion.div
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          variants={variants}
+          transition={{ duration: 0.3, delay }}
+          className="flex flex-row items-center gap-5"
+        >
+          <Image
+            loading="lazy"
+            decoding="async"
+            src={item.image}
+            alt={`Starbucks ${item.name} Image`}
+            width={120}
+            height={120}
+            className="rounded-full"
+          />
+          <div>
+            <h3 className="text-xl w-full">{item.name}</h3>
+          </div>
+        </motion.div>
+      </motion.div>
+    </Link>
   );
 };
 
