@@ -1,7 +1,19 @@
 "use client";
 import { allBlogs } from "contentlayer/generated";
-const BlogDetails = lazy(() => import("../BlogDetails"));
-const RenderMdx = lazy(() => import("../RenderMdx"));
+const RenderMdx = dynamic(() => import("../RenderMdx"), {
+  ssr: false,
+});
+const BlogDetails = dynamic(() => import("../BlogDetails"), {
+  ssr: false,
+});
+const ProfileSection = dynamic(() => import("../../ProfileSection"), {
+  ssr: false,
+});
+import { Menu } from "@/lib/menuItems";
+const Product = dynamic(() => import("../../StarbucksProduct/Product"), {
+  ssr: false,
+});
+
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -11,12 +23,9 @@ import {
   BreadcrumbSeparator,
 } from "../../ui/breadcrumb";
 import { Slash } from "lucide-react";
-import { lazy, useState } from "react";
-import Product from "../../StarbucksProduct/Product";
-import { Menu } from "@/lib/menuItems";
-import Link from "next/link";
-import ProfileSection from "../../ProfileSection";
+import { useState } from "react";
 import { motion } from "framer-motion"; // Import motion from Framer Motion
+import dynamic from "next/dynamic";
 
 const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
   const blog = allBlogs.find(
@@ -85,18 +94,13 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
       <div className="mb-20 mt-[20px] flex items-center justify-center flex-col text-center">
         <div className="w-full lg:w-[1000px] mb-2 text-center">
           <div className="mx-3 mb-2 flex w-full justify-center items-center flex-col  text-slate-400 font-bold">
-            <div
-              className="flex flex-wrap justify-center items-center gap-x-5 max-w-3xl"
-            >
+            <div className="flex flex-wrap justify-center items-center gap-x-5 max-w-3xl">
               {displayedTags.map((tag: string, index: number) => (
                 <span key={index}>#{tag} </span>
               ))}
             </div>
             {blogy.tags.length > 3 && (
-              <button
-                onClick={toggleShowMore}
-                className="text-primary ml-2"
-              >
+              <button onClick={toggleShowMore} className="text-primary ml-2">
                 {showMore ? "Show Less" : "Show More"}
               </button>
             )}
@@ -120,7 +124,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
                 <ProfileSection />
               </motion.div>
             </div>
-              <RenderMdx blog={blogy} />
+            <RenderMdx blog={blogy} />
           </div>
         </div>
       </div>

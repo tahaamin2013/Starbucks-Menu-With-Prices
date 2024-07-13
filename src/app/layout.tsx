@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar";
-import SubMenu from "../components/subMenu";
-import Footer from "../components/footer";
-import Sidebar from "../components/sidebar";
 import siteMetadata from "../utils/siteMetaData";
 import { cx } from "../utils";
 
