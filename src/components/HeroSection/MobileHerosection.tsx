@@ -51,7 +51,6 @@ const MobileHerosection = () => {
         <CarouselContent>
           {allProducts.map((product, index) => {
             const link = convertNameToLink(product.name);
-
             console.log(link);
             return (
               <CarouselItem
@@ -71,13 +70,12 @@ const MobileHerosection = () => {
                     {product.name}
                   </span>
                   <p className="text-base px-10">{product.description}</p>
-                  <div className="w-full flex flex-col gap-2">
-                    <Link href={`/articles/${link}`} className="w-full">
-                      <Button className="text-white rounded-full w-full duration-500 transition-all">
-                        View Price & Calories
-                      </Button>
-                    </Link>
-                  </div>
+                  <Link
+                    href={`/articles/${link}`}
+                    className="w-full text-white rounded-full bg-primary py-3 text-lg duration-500 transition-all"
+                  >
+                    View Price & Calories
+                  </Link>
                 </div>
               </CarouselItem>
             );
