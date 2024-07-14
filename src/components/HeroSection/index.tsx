@@ -112,8 +112,7 @@ const HeroSection = () => {
             baked goods for those seeking a quick bite.
           </p>
 
-          <div
-          >
+          <div>
             <GoyButtonforHeroSection
               id="Menu"
               classname="bg-transparent z-[200px] border-2 text-primary border-primary hover:!text-primary w-full rounded-full text-sm py-2 mt-5"
@@ -191,7 +190,7 @@ const HeroSection = () => {
             </button>
 
             <div
-              className="w-full ml-2 lg:ml-6 mt-5 max-w-[240px] lg:max-w-sm overflow-hidden"
+              className="w-full ml-2 lg:ml-7 mt-5 max-w-[240px] lg:max-w-sm overflow-hidden"
               ref={emblaRef}
             >
               <div className="-mt-1 h-[300px] lg:h-[370px]">

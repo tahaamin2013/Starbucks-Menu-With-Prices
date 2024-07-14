@@ -11,8 +11,22 @@ export const metadata: Metadata = {
   description: siteMetadata.description,
   icons: {
     icon: ["/icon.ico?v=4"],
-    apple: ["/icon.io?v=4"],
-    shortcut: ["icon.io"],
+    apple: ["/icon.ico?v=4"],
+    shortcut: ["/icon.ico"],
+  },
+  openGraph: {
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    type: "website",
+    url: siteMetadata.siteUrl,
+    images: [
+      {
+        url: "/path/to/your/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: siteMetadata.title,
+      },
+    ],
   },
 };
 
