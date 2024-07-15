@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   title: siteMetadata.title,
   description: siteMetadata.description,
   icons: {
-    icon: ["/icon.ico?v=4"],
-    apple: ["/icon.ico?v=4"],
-    shortcut: ["/icon.ico"],
+    icon: ["/logo.ico?v=4"],
+    apple: ["/logo.ico?v=4"],
+    shortcut: ["/logo.ico"],
   },
   openGraph: {
     title: siteMetadata.title,
