@@ -58,7 +58,14 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
 
   // Function to convert category name to URL-friendly format
   const toUrlFriendly = (name: string) => {
-    return name.toLowerCase().replace(/ /g, "-");
+    return name
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/&/g, "and")
+      .replace(/[®™,.\s]+/g, "-")
+      .replace(/-+/g, "-")
+      .replace(/^-+|-+$/g, "");
   };
 
   const categoryUrl = toUrlFriendly(category);
