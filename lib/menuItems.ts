@@ -2668,7 +2668,7 @@ export const Menu: Category[] = [
       {
         name: "Iced Tea and Lemonade",
         image: "/Iced Tea and Lemonade.avif",
-        link: "Iced-Tea-and-Lemonade",
+        link: "iced-tea-and-lemonade",
         subItems: [
           {
             category: "Iced Black Teas",
