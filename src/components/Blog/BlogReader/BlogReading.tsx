@@ -51,7 +51,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
         }
       }
     }
-    return "Unknown Category"; // Default if category not found
+    return "Iced Tea And Lemonade"; // Default if category not found
   };
 
   const category = findCategory();
