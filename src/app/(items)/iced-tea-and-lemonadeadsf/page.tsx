@@ -5,9 +5,10 @@ const IcedTeaAndLemonade = () => {
   return (
     <CategoryPageComponent
       name="Iced Tea and Lemonade"
-      link="/Iced-Tea-and-Lemonade"
+      link="/iced-tea-and-lemonade"
     />
   );
 };
 
 export default IcedTeaAndLemonade;
+  
