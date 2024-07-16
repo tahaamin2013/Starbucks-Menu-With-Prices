@@ -132,7 +132,9 @@ const ProductLayout = ({ subItem, delay }: any) => {
                     <span className="text-white">.</span>
                   </>
                 )}
-                {(hasSize || subItem.size !== undefined) && <span>Size:</span>}
+                {(hasSize || subItem.size !== undefined) && (
+                  <span>Weight:</span>
+                )}
                 {(hasSizes || subItem.calories !== undefined) && (
                   <span>Calories:</span>
                 )}

@@ -78,9 +78,9 @@ const Feetured: React.FC<FeeturedProps> = ({
               <Image
                 loading="lazy"
                 decoding="async"
-                width={3700}
+                width={1700}
                 className="rounded-l-xl w-full md:h-500p md:w-[800px]"
-                height={10770}
+                height={570}
                 src={imageSrc}
                 alt={`Starbucks menu with prices featuring ${title} - ${description}`}
               />

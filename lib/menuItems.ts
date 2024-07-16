@@ -2653,7 +2653,7 @@ export const Menu: Category[] = [
             category: "Iced Chai Teas",
             products: [
               {
-                name: "Iced Chai Tea Latte",
+                name: "Iced Chai Latte",
                 image: "/Iced Chai Tea Latte.jpg",
                 sizes: [
                   {
